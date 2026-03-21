@@ -1,4 +1,4 @@
-# AI 阅读知识内化助手
+# RFC: AI 阅读知识内化助手
 
 > 让阅读真正转化为记忆 — 从碎片化阅读到长期知识资产的智能助手
 
@@ -25,6 +25,7 @@
 - id, user_id, source_type, source_url
 - title, content, extracted_at
 - memory_strength, next_review_at
+- created_at, updated_at  -- 审计字段
 
 复习记录表 (review_records)
 - id, knowledge_point_id, reviewed_at
@@ -44,7 +45,7 @@ src/
 │   ├── web-scraper.ts     # 网页内容抓取
 │   └── llm-extractor.ts   # LLM 知识点提取
 ├── learning/
-│   ├── spaced-repetition.ts  # SM-2 算法
+│   ├── spaced-repetition.ts  # SM-2 算法（经典且验证充分）
 │   ├── qa-generator.ts       # 问答生成
 │   └── relation-builder.ts   # 知识关联
 ├── notification/
@@ -53,6 +54,12 @@ src/
 └── api/
     └── routes/            # RESTful API
 ```
+
+**SM-2 算法选择原因**：
+- SuperMemo 2 是最经典、应用最广的间隔重复算法
+- Anki、Quizlet 等主流产品均基于此或其变体
+- 算法简单、参数少、易于实现和调试
+- 社区经验丰富，优化策略成熟
 
 ### 展示层
 - **Web Dashboard**：React + Tailwind
@@ -63,7 +70,9 @@ src/
 
 ## 实现步骤
 
-### Phase 1: MVP (2 周)
+### Phase 1: MVP (2-3 周)
+> 注：2 周为理想情况，LLM 提取调优可能需要额外时间
+
 1. [ ] 项目初始化：Next.js + Prisma + PostgreSQL
 2. [ ] PDF 上传 + 文本提取
 3. [ ] LLM 知识点提取 (GLM-4 / Claude)
