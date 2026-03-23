@@ -5,9 +5,8 @@ AI 创意收集仓库 - 记录、实验、实现各种有趣的 AI 想法。
 ## 目录结构
 
 ```
-ideas/           # 创意文档（按主题分类）
-experiments/     # 实验性代码
-resources/       # 有价值的资源链接
+ideas/           # 创意文档（所有 AI 创意）
+docs/            # 文档和 RFC
 ```
 
 ## 提交创意
@@ -15,6 +14,12 @@ resources/       # 有价值的资源链接
 - 📝 直接提交到 `ideas/` 目录
 - 🐛 通过 [Issues](../../issues) 讨论
 - 🔀 通过 PR 贡献
+
+## 命名规范
+
+- 使用 kebab-case：`ai-daily-briefing.md`
+- 以 `ai-` 开头表示 AI 相关创意
+- 简洁明了，一眼能看出用途
 
 ## 创意分类
 
