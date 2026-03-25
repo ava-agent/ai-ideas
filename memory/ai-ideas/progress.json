@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "total_ideas": 67,
+    "total_prs": 38,
+    "merged_prs": 37,
+    "open_issues": 59,
+    "open_prs": 0
+  },
+  "daily": {
+    "2026-03-25": {
+      "ideas_created": 9,
+      "evaluations": 24,
+      "prs_created": 8,
+      "prs_merged": 9,
+      "pr_fixes": 6,
+      "pr_reviews": 13
+    },
+    "2026-03-21": {
+      "ideas_created": 17,
+      "evaluations": 30,
+      "prs_created": 4,
+      "prs_merged": 4,
+      "pr_fixes": 1,
+      "errors": 0
+    },
+    "2026-03-22": {
+      "ideas_created": 7,
+      "evaluations": 10,
+      "prs_created": 3,
+      "prs_merged": 3,
+      "pr_fixes": 4,
+      "pr_reviews": 5
+    },
+    "2026-03-23": {
+      "ideas_created": 17,
+      "evaluations": 36,
+      "prs_created": 12,
+      "prs_merged": 14,
+      "pr_fixes": 6,
+      "pr_reviews": 18
+    },
+    "2026-03-24": {
+      "ideas_created": 14,
+      "evaluations": 28,
+      "prs_created": 7,
+      "prs_merged": 7,
+      "pr_fixes": 6,
+      "pr_reviews": 11
+    }
+  },
+  "last_run": {
+    "idea_generator": "2026-03-25T17:03:00+08:00",
+    "issue_evaluator": "2026-03-25T16:16:00+08:00",
+    "pr_creator": "2026-03-25T16:32:00+08:00",
+    "pr_reviewer": "2026-03-25T16:45:00+08:00",
+    "issue_cleaner": "2026-03-25T12:00:00+08:00"
+  },
+  "skip_reasons": {},
+  "issues": [],
+  "optimizations": [
+    {
+      "date": "2026-03-21",
+      "type": "throughput",
+      "change": "Issue 评估器从每次 1 个改为每次 2 个",
+      "reason": "解决 PR 创建器因评估不足（<2）持续跳过的问题",
+      "expected_impact": "评估覆盖率翻倍，PR 创建器不再因评估不足跳过"
+    },
+    {
+      "date": "2026-03-23",
+      "type": "quality",
+      "change": "增加标签系统和难度分级",
+      "reason": "参考成功项目的运营方式，提高创意的可分类性和可搜索性",
+      "details": [
+        "创意生成器增加结构化标签（category/difficulty/priority）",
+        "评估器增加难度判断（Beginner/Intermediate/Advanced）",
+        "Issue 创建时自动添加对应的 GitHub Labels"
+      ],
+      "expected_impact": "提高创意的可发现性，帮助用户快速找到适合的创意"
+    },
+    {
+      "date": "2026-03-24",
+      "type": "style",
+      "change": "创意标题增加反差感 + 2077 日报去重检查",
+      "reason": "标题过于模板化缺少记忆点；2077 日报出现重复主题（AI 离婚案两次）",
+      "details": [
+        "标题公式：从 [现状痛点] 到 [理想状态]，制造反差",
+        "差异化表格要求具体场景对比，不要抽象描述",
+        "2077 日报增加 Step 0 去重检查，避免相似主题和连续相同模板"
+      ],
+      "expected_impact": "标题更有记忆点，2077 日报内容更丰富多样"
+    },
+    {
+      "date": "2026-03-25",
+      "type": "quality",
+      "change": "增加创意质量评分机制",
+      "reason": "当前评估有星级但没有集中记录，无法识别高价值创意；PR 创建基于主观判断",
+      "details": [
+        "为每个创意添加质量分数（基于评估结果的平均值）",
+        "PR 创建器优先选择质量分 ≥ 3.5 的创意",
+        "质量分 = 所有评估星级的平均值（1-5 星）"
+      ],
+      "expected_impact": "识别高价值创意，提高 PR 质量，优化资源分配"
+    }
+  ]
+}
+

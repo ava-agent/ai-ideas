@@ -1,0 +1,590 @@
+{
+  "ideas": [
+    {
+      "id": 1,
+      "title": "AI 生成个性化新闻摘要播客",
+      "status": "merged",
+      "pr_id": 2,
+      "tags": ["creative", "tool"]
+    },
+    {
+      "id": 2,
+      "title": "AI 项目驱动学习平台",
+      "status": "open",
+      "issue_id": 4,
+      "tags": ["learning", "education", "code"]
+    },
+    {
+      "id": 3,
+      "title": "AI PR 自动摘要与变更影响分析",
+      "status": "merged",
+      "issue_id": 6,
+      "pr_id": 14,
+      "tags": ["efficiency", "developer-tools", "code-review"]
+    },
+    {
+      "id": 4,
+      "title": "AI 会议健康守护者",
+      "status": "open",
+      "issue_id": 7,
+      "tags": ["health", "productivity", "meetings"]
+    },
+    {
+      "id": 5,
+      "title": "AI 冰箱管家 - 食材智能管理与菜谱推荐",
+      "status": "open",
+      "issue_id": 8,
+      "tags": ["daily-life", "sustainability", "multimodal"]
+    },
+    {
+      "id": 6,
+      "title": "AI 社交记忆助手 - 智能维护人际关系网络",
+      "status": "open",
+      "issue_id": 9,
+      "tags": ["social", "relationships", "productivity"]
+    },
+    {
+      "id": 7,
+      "title": "AI 遗忘曲线复习助手 - 科学记忆强化系统",
+      "status": "open",
+      "issue_id": 10,
+      "tags": ["learning", "memory", "productivity", "personal-growth"]
+    },
+    {
+      "id": 8,
+      "title": "AI 专注力音乐生成器",
+      "status": "open",
+      "issue_id": 11,
+      "tags": ["efficiency", "music", "focus", "productivity"]
+    },
+    {
+      "id": 9,
+      "title": "AI 睡眠故事生成器",
+      "status": "open",
+      "issue_id": 12,
+      "tags": ["health", "sleep", "creative", "multimodal", "personalization"]
+    },
+    {
+      "id": 10,
+      "title": "AI 照片记忆整理助手",
+      "status": "open",
+      "issue_id": 13,
+      "tags": ["daily-life", "multimodal", "photo", "productivity"]
+    },
+    {
+      "id": 11,
+      "title": "AI 代码库知识地图生成器",
+      "status": "open",
+      "issue_id": 15,
+      "tags": ["developer-tools", "code-understanding", "visualization"]
+    },
+    {
+      "id": 12,
+      "title": "AI 阅读知识内化助手",
+      "status": "open",
+      "issue_id": 16,
+      "tags": ["learning", "knowledge-management", "efficiency", "reading"]
+    },
+    {
+      "id": 13,
+      "title": "AI 虚拟衣橱管家",
+      "status": "open",
+      "issue_id": 18,
+      "tags": ["daily-life", "multimodal", "personalization", "sustainability"]
+    },
+    {
+      "id": 14,
+      "title": "AI 数字断舍离助手",
+      "status": "open",
+      "issue_id": 19,
+      "tags": ["daily-life", "efficiency", "minimalism", "productivity"]
+    },
+    {
+      "id": 15,
+      "title": "AI 旅行规划助手",
+      "status": "open",
+      "issue_id": 20,
+      "tags": ["travel", "planning", "multimodal", "personalization", "daily-life"]
+    },
+    {
+      "id": 16,
+      "title": "AI 运动健身实时教练",
+      "status": "open",
+      "issue_id": 22,
+      "tags": ["health", "fitness", "multimodal", "real-time", "personalization"]
+    },
+    {
+      "id": 17,
+      "title": "AI 情绪模式侦探",
+      "status": "open",
+      "issue_id": 23,
+      "tags": ["health", "personalization", "data-analysis", "mental-wellness", "lifestyle"]
+    },
+    {
+      "id": 18,
+      "title": "AI 订阅管家",
+      "status": "open",
+      "issue_id": 25,
+      "tags": ["daily-life", "efficiency", "finance", "personalization", "sustainability"]
+    },
+    {
+      "id": 19,
+      "title": "AI 写作创作伴侣",
+      "status": "open",
+      "issue_id": 26,
+      "tags": ["efficiency", "creative", "writing", "personalization", "productivity"]
+    },
+    {
+      "id": 20,
+      "title": "AI 错误信息诊断师",
+      "status": "open",
+      "issue_id": 27,
+      "tags": ["developer-tools", "debugging", "efficiency", "code-review"]
+    },
+    {
+      "id": 21,
+      "title": "AI 语音笔记结构化助手",
+      "status": "open",
+      "issue_id": 29,
+      "tags": ["productivity", "note-taking", "voice", "knowledge-management", "automation"]
+    },
+    {
+      "id": 22,
+      "title": "AI 口语陪练伴侣",
+      "status": "open",
+      "issue_id": 30,
+      "tags": ["language-learning", "voice", "personalization", "education", "multimodal"]
+    },
+    {
+      "id": 23,
+      "title": "AI 购物决策助手",
+      "status": "open",
+      "issue_id": 32,
+      "tags": ["daily-life", "efficiency", "e-commerce", "data-analysis", "personalization"]
+    },
+    {
+      "id": 24,
+      "title": "AI 团队协作温度计",
+      "status": "open",
+      "issue_id": 34,
+      "tags": ["team-collaboration", "remote-work", "data-analysis", "productivity", "b2b"]
+    },
+    {
+      "id": 25,
+      "title": "AI 宠物健康日志分析师",
+      "status": "open",
+      "issue_id": 37,
+      "tags": ["pets", "health", "daily-life", "personalization", "data-analysis"]
+    },
+    {
+      "id": 26,
+      "title": "AI 智能合同阅读助手",
+      "status": "open",
+      "issue_id": 39,
+      "tags": ["daily-life", "efficiency", "legal", "document-analysis"]
+    },
+    {
+      "id": 27,
+      "title": "AI 面试场景模拟教练",
+      "status": "open",
+      "issue_id": 40,
+      "tags": ["career", "job-search", "voice", "personalization", "education"]
+    },
+    {
+      "id": 28,
+      "title": "AI 个人能源管家",
+      "status": "open",
+      "issue_id": 42,
+      "tags": ["daily-life", "sustainability", "smart-home", "data-analysis", "personalization"]
+    },
+    {
+      "id": 29,
+      "title": "AI 个人知识图谱构建器",
+      "status": "open",
+      "issue_id": 44,
+      "tags": ["knowledge-management", "productivity", "visualization", "multimodal", "personalization"]
+    },
+    {
+      "id": 30,
+      "title": "AI 礼物推荐助手",
+      "status": "open",
+      "issue_id": 46,
+      "tags": ["daily-life", "social", "personalization", "multimodal"]
+    },
+    {
+      "id": 31,
+      "title": "AI 邮件智能管家",
+      "status": "pr_created",
+      "issue_id": 47,
+      "pr_id": 49,
+      "tags": ["daily-life", "efficiency", "email", "automation", "productivity"]
+    },
+    {
+      "id": 32,
+      "title": "AI 饮食营养分析师",
+      "status": "open",
+      "issue_id": 51,
+      "tags": ["health", "multimodal", "daily-life", "personalization", "data-analysis"]
+    },
+    {
+      "id": 33,
+      "title": "AI 灵感捕捉与孵化器",
+      "status": "open",
+      "issue_id": 54,
+      "tags": ["creativity", "productivity", "knowledge-management", "personalization"]
+    },
+    {
+      "id": 34,
+      "title": "AI 创作者内容指纹守护者",
+      "status": "open",
+      "issue_id": 55,
+      "tags": ["creator-tools", "copyright", "automation", "legal", "multimodal"],
+      "created_at": "2026-03-23T11:03:00+08:00"
+    },
+    {
+      "id": 35,
+      "title": "AI 紧急情况响应助手",
+      "status": "open",
+      "issue_id": 58,
+      "tags": ["health", "emergency", "personalization", "offline", "safety"],
+      "created_at": "2026-03-23T12:02:00+08:00"
+    },
+    {
+      "id": 36,
+      "title": "AI 居家维修诊断助手",
+      "status": "open",
+      "issue_id": 60,
+      "tags": ["daily-life", "multimodal", "diagnosis", "smart-home", "cost-saving"],
+      "created_at": "2026-03-23T13:01:00+08:00"
+    },
+    {
+      "id": 37,
+      "title": "AI 冥想引导师",
+      "status": "open",
+      "issue_id": 63,
+      "tags": ["health", "mental-wellness", "personalization", "multimodal", "voice"],
+      "created_at": "2026-03-23T14:02:00+08:00"
+    },
+    {
+      "id": 38,
+      "title": "AI 家族记忆传承助手",
+      "status": "open",
+      "issue_id": 68,
+      "tags": ["family", "memory", "voice", "multimodal", "personalization"],
+      "created_at": "2026-03-23T16:02:00+08:00"
+    },
+    {
+      "id": 39,
+      "title": "AI 儿童情绪气象站",
+      "status": "open",
+      "issue_id": 73,
+      "tags": ["health", "children", "mental-wellness", "personalization", "data-analysis", "family"],
+      "created_at": "2026-03-23T18:03:00+08:00"
+    },
+    {
+      "id": 40,
+      "title": "AI 职业第二曲线探索器",
+      "status": "open",
+      "issue_id": 74,
+      "tags": ["career", "midlife-transition", "personalization", "data-analysis", "personal-growth"],
+      "created_at": "2026-03-23T19:02:00+08:00"
+    },
+    {
+      "id": 41,
+      "title": "AI 安全守护哨兵",
+      "status": "open",
+      "issue_id": 78,
+      "tags": ["health", "safety", "daily-life", "personalization", "offline", "privacy-first"],
+      "created_at": "2026-03-23T21:01:00+08:00"
+    },
+    {
+      "id": 42,
+      "title": "AI 智能用药管家",
+      "status": "open",
+      "issue_id": 81,
+      "tags": ["health", "seniors", "multimodal", "family", "safety", "daily-life", "personalization"],
+      "created_at": "2026-03-23T22:04:00+08:00"
+    },
+    {
+      "id": 43,
+      "title": "AI 婴儿哭声翻译官",
+      "status": "open",
+      "issue_id": 82,
+      "tags": ["health", "family", "voice", "personalization", "multimodal", "daily-life"],
+      "created_at": "2026-03-24T01:04:00+08:00"
+    },
+    {
+      "id": 44,
+      "title": "AI 验房卫士",
+      "status": "open",
+      "issue_id": 83,
+      "tags": ["daily-life", "multimodal", "legal", "cost-saving", "personalization"],
+      "created_at": "2026-03-24T02:15:00+08:00"
+    },
+    {
+      "id": 45,
+      "title": "AI 零基础乐器陪练",
+      "status": "open",
+      "issue_id": 84,
+      "tags": ["learning", "music", "voice", "personalization", "gamification", "personal-growth"],
+      "created_at": "2026-03-24T03:06:00+08:00"
+    },
+    {
+      "id": 46,
+      "title": "AI 社交破冰教练",
+      "status": "open",
+      "issue_id": 85,
+      "tags": ["career", "social-skills", "personalization", "gamification", "personal-growth", "mental-wellness"],
+      "created_at": "2026-03-24T04:09:00+08:00"
+    },
+    {
+      "id": 47,
+      "title": "AI 虚拟茶水间",
+      "status": "open",
+      "issue_id": 86,
+      "tags": ["remote-work", "mental-wellness", "social", "team-collaboration", "personalization", "daily-life"],
+      "created_at": "2026-03-24T06:12:00+08:00"
+    },
+    {
+      "id": 48,
+      "title": "AI 绿植诊所",
+      "status": "open",
+      "issue_id": 87,
+      "tags": ["daily-life", "multimodal", "personalization", "gamification", "plants"],
+      "created_at": "2026-03-24T07:08:00+08:00"
+    },
+    {
+      "id": 49,
+      "title": "AI 方言传承助手",
+      "status": "open",
+      "issue_id": 91,
+      "tags": ["family", "voice", "multimodal", "personalization", "cultural-preservation", "gamification", "seniors"],
+      "created_at": "2026-03-24T11:01:00+08:00"
+    },
+    {
+      "id": 50,
+      "title": "AI 工作空间猎人",
+      "status": "open",
+      "issue_id": 93,
+      "tags": ["remote-work", "digital-nomad", "daily-life", "data-analysis", "community", "multimodal"],
+      "created_at": "2026-03-24T12:01:00+08:00"
+    },
+    {
+      "id": 51,
+      "title": "AI 备考冲刺伙伴",
+      "status": "open",
+      "issue_id": 95,
+      "tags": ["learning", "education", "personalization", "gamification", "data-analysis", "exam-prep"],
+      "created_at": "2026-03-24T13:01:00+08:00"
+    },
+    {
+      "id": 52,
+      "title": "AI 代际沟通翻译官",
+      "status": "open",
+      "issue_id": 97,
+      "tags": ["family", "relationships", "communication", "mental-wellness", "personalization", "daily-life"],
+      "created_at": "2026-03-24T14:02:00+08:00"
+    },
+    {
+      "id": 53,
+      "title": "AI 礼物顾问",
+      "status": "open",
+      "issue_id": 102,
+      "tags": ["daily-life", "personalization", "e-commerce", "multimodal", "gift", "relationships"],
+      "created_at": "2026-03-24T16:03:00+08:00"
+    },
+    {
+      "id": 54,
+      "title": "AI 厨房安全哨兵",
+      "status": "open",
+      "issue_id": 104,
+      "tags": ["daily-life", "smart-home", "safety", "personalization", "multimodal", "iot"],
+      "created_at": "2026-03-24T17:05:00+08:00"
+    },
+    {
+      "id": 55,
+      "title": "AI 任务拆解启动器",
+      "status": "open",
+      "issue_id": 106,
+      "tags": ["productivity", "personalization", "behavior-science", "mental-wellness", "efficiency", "personal-growth"],
+      "created_at": "2026-03-24T18:04:00+08:00"
+    },
+    {
+      "id": 56,
+      "title": "AI 酒局挡箭牌",
+      "status": "open",
+      "issue_id": 110,
+      "tags": ["daily-life", "health", "social", "personalization", "mental-wellness", "culture"],
+      "created_at": "2026-03-24T20:02:00+08:00"
+    },
+    {
+      "id": 57,
+      "title": "AI 预约管家",
+      "status": "open",
+      "issue_id": 111,
+      "tags": ["daily-life", "efficiency", "multimodal", "personalization", "automation"],
+      "created_at": "2026-03-24T21:01:00+08:00"
+    },
+    {
+      "id": 58,
+      "title": "AI 消费者维权助手",
+      "status": "open",
+      "issue_id": 114,
+      "tags": ["daily-life", "consumer-rights", "efficiency", "legal", "automation", "multimodal"],
+      "created_at": "2026-03-24T22:04:00+08:00"
+    },
+    {
+      "id": 59,
+      "title": "AI 租房看房侦探",
+      "status": "open",
+      "issue_id": 115,
+      "tags": ["daily-life", "multimodal", "personalization", "rental", "cost-saving"],
+      "created_at": "2026-03-24T23:01:00+08:00"
+    },
+    {
+      "id": 60,
+      "title": "AI 护肤顾问",
+      "status": "open",
+      "issue_id": 117,
+      "tags": ["daily-life", "multimodal", "personalization", "health", "cost-saving"],
+      "created_at": "2026-03-25T00:01:00+08:00"
+    },
+    {
+      "id": 61,
+      "title": "AI 开车陪练",
+      "status": "open",
+      "issue_id": 119,
+      "tags": ["daily-life", "voice", "multimodal", "personalization", "safety", "beginner-friendly", "driving"],
+      "created_at": "2026-03-25T01:01:00+08:00"
+    },
+    {
+      "id": 62,
+      "title": "AI 汇报表达教练",
+      "status": "open",
+      "issue_id": 121,
+      "tags": ["career", "productivity", "voice", "multimodal", "personalization"],
+      "created_at": "2026-03-25T02:01:00+08:00"
+    },
+    {
+      "id": 63,
+      "title": "AI 技术会议发言教练",
+      "status": "open",
+      "issue_id": 125,
+      "tags": ["career", "soft-skills", "meetings", "personalization", "real-time", "voice"],
+      "created_at": "2026-03-25T04:01:00+08:00"
+    },
+    {
+      "id": 64,
+      "title": "AI 今日行动催化剂",
+      "status": "open",
+      "issue_id": 126,
+      "tags": ["productivity", "personalization", "behavior-science", "mental-wellness", "personal-growth"],
+      "created_at": "2026-03-25T05:01:00+08:00"
+    },
+    {
+      "id": 65,
+      "title": "AI 境外游翻译官",
+      "status": "open",
+      "issue_id": 127,
+      "tags": ["travel", "multimodal", "voice", "real-time", "personalization", "offline", "cross-cultural"],
+      "created_at": "2026-03-25T06:01:00+08:00"
+    },
+    {
+      "id": 66,
+      "title": "AI 破冰对话教练",
+      "status": "open",
+      "issue_id": 129,
+      "tags": ["career", "social-skills", "personalization", "real-time", "mental-wellness"],
+      "created_at": "2026-03-25T07:01:00+08:00"
+    },
+    {
+      "id": 67,
+      "title": "AI 数字技能陪练",
+      "status": "open",
+      "issue_id": 130,
+      "tags": ["daily-life", "seniors", "multimodal", "voice", "personalization", "family", "accessibility"],
+      "created_at": "2026-03-25T08:01:00+08:00"
+    },
+    {
+      "id": 68,
+      "title": "AI 1对1会议教练",
+      "status": "open",
+      "issue_id": 133,
+      "tags": ["career", "meetings", "personalization", "voice", "productivity", "soft-skills", "newbies"],
+      "created_at": "2026-03-25T09:06:00+08:00"
+    },
+    {
+      "id": 69,
+      "title": "AI 薪资谈判教练",
+      "status": "open",
+      "issue_id": 136,
+      "tags": ["career", "salary-negotiation", "personalization", "voice", "real-time", "soft-skills"],
+      "created_at": "2026-03-25T10:01:00+08:00"
+    },
+    {
+      "id": 70,
+      "title": "AI 能量守护者",
+      "status": "open",
+      "issue_id": 139,
+      "tags": ["health", "mental-wellness", "career", "personalization", "behavior-science", "burnout"],
+      "created_at": "2026-03-25T11:03:00+08:00"
+    },
+    {
+      "id": 71,
+      "title": "AI 简历诊断师",
+      "status": "open",
+      "issue_id": 140,
+      "tags": ["career", "job-search", "personalization", "multimodal", "beginner-friendly"],
+      "created_at": "2026-03-25T12:01:00+08:00"
+    },
+    {
+      "id": 72,
+      "title": "AI 社交应答助手",
+      "status": "open",
+      "issue_id": 141,
+      "tags": ["career", "social-skills", "real-time", "voice", "mental-wellness", "personalization"],
+      "created_at": "2026-03-25T13:01:00+08:00"
+    },
+    {
+      "id": 73,
+      "title": "AI 突发状况冷静官",
+      "status": "open",
+      "issue_id": 145,
+      "tags": ["daily-life", "emergency", "multimodal", "personalization", "offline", "safety"],
+      "created_at": "2026-03-25T15:02:00+08:00"
+    },
+    {
+      "id": 74,
+      "title": "AI 聚会破冰助手",
+      "status": "open",
+      "issue_id": 147,
+      "tags": ["social-skills", "mental-wellness", "personalization", "real-time", "multimodal", "daily-life"],
+      "created_at": "2026-03-25T16:02:00+08:00"
+    },
+    {
+      "id": 75,
+      "title": "AI 故事世界共创师",
+      "status": "open",
+      "issue_id": 149,
+      "tags": ["creative", "entertainment", "personalization", "voice", "multimodal", "gamification"],
+      "created_at": "2026-03-25T17:03:00+08:00"
+    }
+  ],
+  "themes_used": [
+    "family", "memory", "personalization", "daily-life", "e-commerce", "sustainability",
+    "focus", "sleep", "creativity", "meetings", "lifestyle", "relationships",
+    "language-learning", "data-analysis", "music", "developer-tools", "planning",
+    "team-collaboration", "b2b", "learning", "personal-growth", "tool", "job-search",
+    "real-time", "minimalism", "note-taking", "health", "career", "code-understanding",
+    "code", "document-analysis", "copyright", "photo", "fitness", "reading", "legal",
+    "email", "remote-work", "creative", "voice", "travel", "pets", "efficiency",
+    "code-review", "multimodal", "finance", "debugging", "knowledge-management",
+    "mental-wellness", "writing", "smart-home", "automation", "creator-tools",
+    "education", "visualization", "productivity", "social", "diagnosis", "cost-saving",
+    "safety", "children", "midlife-transition", "seniors", "offline", "privacy-first",
+    "gamification", "plants", "cultural-preservation", "behavior-science", "iot",
+    "consumer-rights", "culture", "driving", "beginner-friendly", "cross-cultural",
+    "social-skills", "soft-skills", "newbies"
+  ],
+  "last_updated": "2026-03-25T07:01:00+08:00"
+}
