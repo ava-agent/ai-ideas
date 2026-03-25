@@ -1,0 +1,51 @@
+---
+name: 创意提案
+about: 提交一个新的 AI 创意想法
+title: "[创意] "
+labels: ["idea", "proposal"]
+body:
+  - type: input
+    id: idea_name
+    attributes:
+      label: 创意名称
+      placeholder: 给创意起一个简洁有力的名字
+    validations:
+      required: true
+  - type: input
+    id: pitch
+    attributes:
+      label: 一句话卖点
+      placeholder: 用一句话描述核心价值（20字以内）
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 解决了什么问题？
+      placeholder: 描述目标用户的痛点
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 解决方案是什么？
+      placeholder: 简要描述产品如何解决问题
+    validations:
+      required: true
+  - type: textarea
+    id: target_users
+    attributes:
+      label: 目标用户是谁？
+      placeholder: 描述核心用户画像
+    validations:
+      required: true
+  - type: textarea
+    id: differentiation
+    attributes:
+      label: 与现有方案的区别？
+      placeholder: 竞品分析或替代方案对比（可选）
+  - type: textarea
+    id: additional
+    attributes:
+      label: 其他补充
+      placeholder: 任何其他相关信息
