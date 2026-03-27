@@ -733,29 +733,51 @@ CREATE TABLE execution_logs (
 
 ## 实现步骤
 
-### MVP阶段（2-3个月）
-- 核心工作流引擎
-- 支持ChatGPT和Claude API
-- 基础Web界面
-- 简单权限管理
+### MVP阶段（4-6个月）- 核心功能验证
+**核心目标**：验证自然语言工作流生成的技术可行性
+
+**功能范围**：
+- 基础工作流引擎
+- 仅支持OpenAI API（简化技术栈）
+- 最简化Web界面（仅核心功能）
+- 基础用户权限（单用户模式）
+
+**性能指标**：
+- 工作流创建时间：≤60秒（MVP阶段可接受）
+- 任务执行延迟：≤10秒（考虑网络延迟）
+- 并发处理：20+工作流同时执行
+- 系统可用性：98%（技术验证阶段）
+- 错误恢复：≥90%（带自动重试机制）
+
+### V2阶段（6-8个月）- 功能扩展
+**核心目标**：扩展AI引擎支持和企业级功能
+
+**功能范围**：
+- 增加Claude API（第二引擎）
+- 基础团队协作功能
+- 简单成本监控系统
+- 基础API开放
+
+**性能指标**：
+- 工作流创建时间：≤45秒
+- 任务执行延迟：≤8秒
+- 并发处理：50+工作流同时执行
+- 系统可用性：99%
+
+### V3阶段（8-12个月）- 完整企业功能
+**核心目标**：完善企业级功能和生态系统
+
+**功能范围**：
+- 增加Gemini等更多AI引擎
+- 完整企业级权限管理
+- 高级成本优化和监控
+- 移动端应用和插件系统
 
 **性能指标**：
 - 工作流创建时间：≤30秒
 - 任务执行延迟：≤5秒
 - 并发处理：100+工作流同时执行
 - 系统可用性：99.5%
-
-### V2阶段（3-4个月）
-- 多AI引擎支持
-- 高级权限管理
-- 团队协作功能
-- 成本监控系统
-
-### V3阶段（4-6个月）
-- 移动端应用
-- 企业级API
-- 插件系统
-- 国际化支持
 
 ## 资源需求
 
@@ -778,32 +800,228 @@ CREATE TABLE execution_logs (
 - **代码质量**：Black + Flake8 + MyPy
 - **API文档**：Swagger/OpenAPI
 
+## 智能成本控制系统（新增）
+
+### API成本优化策略
+
+#### 1. 智能路由算法
+```python
+class CostOptimizer:
+    def __init__(self):
+        self.pricing = {
+            'openai': {'gpt-4': 0.03, 'gpt-3.5': 0.0015},
+            'anthropic': {'claude': 0.015},
+            'google': {'gemini': 0.002}
+        }
+        self.performance_data = PerformanceTracker()
+    
+    def select_cost_effective_engine(self, task_type: str, complexity: str) -> str:
+        """选择最具成本效益的AI引擎"""
+        candidates = self.get_candidate_engines(task_type, complexity)
+        
+        # 计算每个引擎的综合成本效益比
+        engine_scores = {}
+        for engine in candidates:
+            cost_per_task = self.calculate_estimated_cost(engine, task_type)
+            performance_score = self.performance_data.get_success_rate(engine, task_type)
+            cost_efficiency = performance_score / cost_per_task
+            engine_scores[engine] = cost_efficiency
+        
+        # 选择成本效益最高的引擎
+        return max(engine_scores, key=engine_scores.get)
+    
+    def calculate_estimated_cost(self, engine: str, task_type: str) -> float:
+        """估算任务执行成本"""
+        base_cost = self.pricing[engine][task_type]
+        
+        # 根据任务复杂度调整成本系数
+        complexity_multiplier = {
+            'simple': 1.0,
+            'medium': 1.5,
+            'complex': 2.5
+        }
+        
+        # 根据历史数据调整成本估算
+        historical_variance = self.performance_data.get_cost_variance(engine, task_type)
+        
+        return base_cost * complexity_multiplier[task_type] * (1 + historical_variance)
+```
+
+#### 2. 智能缓存策略
+- **结果缓存**：缓存相似查询结果，减少API调用
+- **模板缓存**：预置工作流模板，减少LLM调用
+- **批处理优化**：合并多个小任务为批量处理
+- **智能降级**：API高负载时自动降级到 cheaper 引擎
+
+#### 3. 成本监控和预警
+- **实时成本监控**：实时显示当前会话成本
+- **预算预警**：达到预算80%时发送预警
+- **成本优化建议**：基于使用模式提供成本优化建议
+- **历史成本分析**：生成成本使用趋势报告
+
+### 详细成本模型
+
+#### 月度运营成本估算
+| 成本项目 | 月费用 | 说明 |
+|---------|--------|------|
+| **AI API成本** | ¥15,000-50,000 | 主要成本，取决于使用量 |
+| **服务器费用** | ¥3,000-8,000 | 云服务器和数据库 |
+| **带宽费用** | ¥500-2,000 | API调用和数据传输 |
+| **人力成本** | ¥50,000-80,000 | 开发和运维团队 |
+| **其他费用** | ¥2,000-5,000 | 监控、安全、其他 |
+
+#### 成本节约策略
+- **引擎选择优化**：通过智能路由节省30-50%成本
+- **缓存利用**：减少40-60%重复API调用
+- **批处理优化**：降低20-30%单位处理成本
+- **本地模型部署**：对常用任务使用本地模型
+
 ## 变现模式
 
 ### SaaS订阅模式
-- **免费版**：个人使用，3个工作流/月
-- **专业版**：¥99/月，团队协作，20个工作流/月
-- **企业版**：¥299/月，无限工作流，高级功能
+- **免费版**：个人使用，3个工作流/月，基础功能
+- **专业版**：¥99/月，团队协作，20个工作流/月，成本监控
+- **企业版**：¥299/月，无限工作流，高级功能，成本优化
 
 ### 按使用量付费
-- **AI调用费用**：按实际调用量计费
-- **存储费用**：数据存储按GB计费
-- **API调用**：超出免费额度后按次计费
+- **AI调用费用**：智能路由后实际成本，透明计费
+- **存储费用**：数据存储按GB计费，前1GB免费
+- **API调用**：超出免费额度后按智能优化后价格计费
 
 ### 企业服务
 - **定制开发**：根据企业需求定制工作流
-- **私有部署**：企业私有化部署
-- **技术支持**：7×24小时技术支持
+- **私有部署**：企业私有化部署，本地AI模型
+- **技术支持**：7×24小时技术支持，专属客户成功经理
 
-## 风险与缓解
+## 风险与缓解（增强版）
+
+### AI API稳定性风险（重点关注）
 
 | 风险 | 缓解措施 |
 |------|----------|
-| **AI API稳定性** | 多厂商API冗余，自动切换机制，本地缓存 |
-| **成本控制** | 实时成本监控，预算预警，智能引擎选择 |
-| **数据安全** | 端到端加密，访问控制，数据脱敏 |
-| **扩展性** | 微服务架构，水平扩展，负载均衡 |
-| **技术债务** | 模块化设计，定期重构，技术升级 |
+| **API服务不可用** | **多厂商冗余**：OpenAI + Anthropic + Google 3厂商API<br>**熔断器模式**：API故障时自动熔断，防止级联故障<br>**降级策略**：API不可用时使用缓存结果或简化处理<br>**健康检查**：实时监控API状态，自动切换备用服务 |
+| **Rate Limit限制** | **智能限流**：动态调整请求频率，避免触发限制<br>**请求合并**：合并多个小请求为批量请求<br>**指数退避**：触发限制时指数退避重试<br>**备用引擎**：主引擎达限时自动切换到备用引擎 |
+| **API响应延迟** | **缓存优先**：缓存相似查询结果，减少API调用<br>**异步处理**：非实时任务异步执行<br>**负载均衡**：多实例负载均衡，避免单点瓶颈<br>**本地模型**：常用任务使用本地模型加速 |
+| **成本不可控** | **实时监控**：实时显示当前会话成本<br>**预算预警**：达到预算80%时自动预警<br>**智能路由**：根据成本效益选择最优引擎<br> **成本优化**：自动优化请求路径，降低成本 |
+| **数据质量波动** | **结果验证**：多模型交叉验证结果质量<br>**用户反馈**：收集用户反馈持续优化<br>**置信度评分**：给每个结果质量评分<br>**自动修正**：低置信度结果自动触发重新处理 |
+
+### 技术实施风险
+
+| 风险 | 缓解措施 |
+|------|----------|
+| **系统复杂性过高** | **分阶段实施**：MVP阶段仅支持OpenAI API<br>**架构简化**：先实现核心功能，后续扩展<br>**技术栈收敛**：减少技术栈复杂度，专注主流技术<br>**模块化设计**：功能模块化，独立开发和测试 |
+| **性能瓶颈** | **性能监控**：实时监控系统性能指标<br>**负载测试**：定期进行压力测试<br>**水平扩展**：支持多实例水平扩展<br>**资源优化**：优化内存和CPU使用效率 |
+| **数据一致性** | **事务处理**：关键操作使用事务保证一致性<br> **数据备份**：定期数据备份和恢复测试<br>**状态管理**：完善的状态管理和错误恢复<br>**数据校验**：多层数据校验确保准确性 |
+
+### 商业化风险
+
+| 风险 | 缓解措施 |
+|------|----------|
+| **市场接受度** | **MVP验证**：先小规模验证核心功能<br>**用户反馈**：持续收集用户反馈和需求<br>**价值展示**：直观展示效率提升和成本节约<br>**案例积累**：收集成功案例，建立口碑 |
+| **竞争加剧** | **技术壁垒**：持续优化AI调度算法<br>**用户体验**：专注用户体验和易用性<br> **快速迭代**：敏捷开发，快速响应市场变化<br>**生态建设**：建立开发者生态和合作伙伴网络 |
+| **定价风险** | **灵活定价**：多种定价模式测试<br>**价值定价**：基于用户价值定价<br>**分层服务**：不同层次满足不同需求<br>**成本透明**：让用户清楚了解成本构成 |
+
+### 容错机制设计
+
+#### 1. 多级降级策略
+```python
+class FallbackManager:
+    def __init__(self):
+        self.fallback_chain = [
+            'primary_engine',
+            'secondary_engine', 
+            'cached_result',
+            'simplified_processing',
+            'error_response'
+        ]
+    
+    def execute_with_fallback(self, task: dict) -> dict:
+        """执行任务并支持多级降级"""
+        for fallback_level in self.fallback_chain:
+            try:
+                result = self.execute_at_level(task, fallback_level)
+                if result['status'] == 'success':
+                    return result
+            except Exception:
+                continue
+        
+        # 所有降级策略都失败
+        return self.generate_error_response(task)
+```
+
+#### 2. 智能重试机制
+```python
+class RetryManager:
+    def __init__(self):
+        self.max_retries = 3
+        self.base_delay = 1  # 基础延迟（秒）
+        self.max_delay = 60  # 最大延迟（秒）
+    
+    def retry_with_exponential_backoff(self, task: dict, error: Exception) -> dict:
+        """指数退避重试机制"""
+        for attempt in range(self.max_retries):
+            delay = min(self.base_delay * (2 ** attempt), self.max_delay)
+            
+            try:
+                time.sleep(delay)
+                result = self.execute_task(task)
+                if result['status'] == 'success':
+                    return result
+            except Exception as e:
+                if attempt == self.max_retries - 1:
+                    raise e
+                continue
+        
+        raise Exception(f"重试{self.max_retries}次后仍然失败")
+```
+
+#### 3. 自适应负载均衡
+```python
+class AdaptiveLoadBalancer:
+    def __init__(self):
+        self.engine_weights = {
+            'openai': 0.4,
+            'anthropic': 0.4,
+            'google': 0.2
+        }
+        self.performance_metrics = PerformanceMetrics()
+    
+    def get_optimal_engine(self, task: dict) -> str:
+        """基于性能指标动态选择最优引擎"""
+        # 实时调整权重
+        self.update_engine_weights()
+        
+        # 根据任务特性选择引擎
+        if task['complexity'] == 'simple':
+            return self.select_for_simple_task()
+        elif task['complexity'] == 'complex':
+            return self.select_for_complex_task()
+        else:
+            return self.select_by_performance()
+    
+    def update_engine_weights(self):
+        """根据实时性能更新引擎权重"""
+        for engine in self.engine_weights:
+            latency = self.performance_metrics.get_avg_latency(engine)
+            success_rate = self.performance_metrics.get_success_rate(engine)
+            
+            # 综合评分：响应时间权重40% + 成功率权重60%
+            score = (1 / latency) * 0.4 + success_rate * 0.6
+            self.engine_weights[engine] = score
+```
+
+### 风险评估总结
+
+#### 风险等级评估
+- **高风险**：AI API稳定性、成本控制、系统复杂性
+- **中风险**：数据质量、性能瓶颈、市场接受度
+- **低风险**：数据安全、技术债务、定价策略
+
+#### 风险应对策略
+1. **预防为主**：通过架构设计和监控系统预防风险
+2. **快速响应**：建立完善的监控和报警机制
+3. **持续优化**：基于用户反馈和数据持续优化产品
+4. **团队配置**：配置专门的DevOps和可靠性工程师
 
 ## 数据隐私合规
 
