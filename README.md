@@ -248,7 +248,6 @@ _租房、搬家、旅行、健身、宠物 — AI 让日常生活更轻松。_
 | [AI 维权证据助手](./ideas/ai-rights-evidence-assistant.md) | AI 3 秒生成专业投诉文书 + 维权路径指引 | 🟢 |
 | [AI 跑步陪练](./ideas/ai-running-coach.md) | 实时语音鼓励和配速指导，3 周完成首个 5 公里 | 🟢 |
 | [AI 搬家打包指挥官](./ideas/moving-assistant.md) | 拍照识别物品，从手忙脚乱 3 天到半天井然有序 | 🟢 |
-| [AI 空间智慧眼](./pr/ai-spatial-eyes-269.md) | 专为视障人士设计的AI空间感知系统，从依赖他人到独立探索，让每一次出行都安全自信 | 💡 |
 | [AI 宠物行为翻译官](./proposals/pet-behavior-translator.md) | 拍摄视频，AI 即时翻译宠物行为含义 | 💡 |
 
 **[⬆ 返回顶部](#awesome-ai-ideas)**
