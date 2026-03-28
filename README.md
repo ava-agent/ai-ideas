@@ -161,6 +161,7 @@ _自动化重复劳动、管理日常事务的 AI 工具。_
 | 创意 | 一句话卖点 | 状态 |
 |------|-----------|------|
 | [AI 浏览器代理调度器](./prs/ai-browser-agent-orchestrator.md) | 定义一次任务 DSL，10 个 Agent 并行执行，2 小时变 5 分钟 | ⭐ |
+| [智能文档推理引擎](./pr/smart-document-reasoning-engine.md) | OCR+AI融合推理，从文字识别到理解推理，企业文档处理效率提升10倍 | ⭐ |
 | [AI 邮件智能管家](./ideas/ai-email-manager.md) | 让收件箱自己整理自己，自动分类、提取行动项 | 🟢 |
 | [AI 预约管家](./ideas/ai-appointment-manager.md) | 截图识别预约信息，提前 3 天自动提醒，不怕预约撞车 | 🟢 |
 | [AI 订阅管家](./ideas/ai-subscription-manager.md) | 智能追踪数字订阅，发现闲置服务，每月省下冤枉钱 | 🟢 |
@@ -214,6 +215,7 @@ _释放创造力，让 AI 成为你的故事共创者。_
 | 创意 | 一句话卖点 | 状态 |
 |------|-----------|------|
 | [AI 故事世界共创师](./pr/2026-03-25-ai-story-world-creator.md) | 10 秒进入角色扮演世界，从被动刷视频到主动创造故事 | ⭐ |
+| [AI 灵感火花点燃师](./pr/ai-inspiration-spark-233.md) | 小红书创作者专用选题生成工具，3秒迸发10个爆款选题 | ⭐ |
 | [AI 照片故事生成器](./ideas/ai-photo-story-generator.md) | 一键将照片变成精美的故事回忆 | 🟢 |
 
 **[⬆ 返回顶部](#awesome-ai-ideas)**
@@ -225,6 +227,7 @@ _更聪明地买、更精准地选 — AI 驱动的消费决策。_
 | 创意 | 一句话卖点 | 状态 |
 |------|-----------|------|
 | [AI 购物决策助手](./pr/2026-03-25-ai-shopping-assistant.md) | 3 秒识别刷评水军，发现真实低价，每笔订单省 30% | ⭐ |
+| [AI 购购决策参谋](./pr/ai-purchase-decision-advisor.md) | AI分析10万+评价，10秒锁定最优选择，告别刷3小时还在犹豫 | ⭐ |
 | [AI 二手物品定价师](./pr/ai-secondhand-pricing-agent.md) | 拍照 3 秒精准估价 + 生成吸睛描述，10 分钟上架 | ⭐ |
 | [AI 咖啡风味探索师](./pr/2026-03-26-ai-coffee-flavor-explorer.md) | 拍豆袋标签，引导品鉴训练，从只喝拿铁到盲猜产区 | ⭐ |
 | [AI 护肤顾问](./pr/skincare-advisor.md) | 拍脸 5 秒懂肌肤，告别盲目买买买，一年省 2000 | ⭐ |
