@@ -42,7 +42,7 @@ AI 智能体编排引擎通过智能任务分析、Agent能力匹配和协作协
    - 基于Agent能力标签，基础规则匹配最佳Agent
    - 简单负载均衡，避免单个Agent过载
    - 任务优先级评估，确保关键路径优先执行
-   - **用户价值**：降低50%人工协调成本，提升任务分配效率
+   - **用户价值**：降低40%人工协调成本，提升任务分配效率
 
 2. **多Agent并行执行**
    - Agent间通信协议，支持数据流转和状态同步
@@ -146,7 +146,7 @@ class AgentMatcher:
 ```python
 class TaskDecomposer:
     def decompose_task(self, complex_task):
-        # 1. 识别子任务
+        # 1. 使用LLM进行NLP任务解析
         subtasks = self.nlp_extract_subtasks(complex_task)
         
         # 2. 构建依赖图
@@ -161,6 +161,51 @@ class TaskDecomposer:
         return prioritized_tasks
 ```
 
+**LLM Prompting Strategy for NLP Task Decomposition:**
+```python
+def nlp_extract_subtasks(self, task_description):
+    """
+    使用结构化Prompt进行任务拆解，确保输出格式一致
+    """
+    prompt = f"""
+    你是一个专业的任务分析专家，请将以下复杂任务拆解为独立的子任务：
+    
+    任务描述：{task_description}
+    
+    要求：
+    1. 每个子任务应该是独立、可执行的具体步骤
+    2. 子任务之间应该有明确的依赖关系
+    3. 识别出任务的关键路径和并行执行部分
+    4. 每个子任务需要包含明确的交付物和验收标准
+    
+    请按照以下JSON格式输出：
+    {{
+        "subtasks": [
+            {{
+                "id": "task_1",
+                "description": "子任务描述",
+                "dependencies": ["dependent_task_id"],
+                "priority": "high|medium|low",
+                "estimated_hours": 2,
+                "skills_required": ["python", "design"]
+            }}
+        ],
+        "critical_path": ["task_1", "task_3"],
+        "parallel_tasks": ["task_2", "task_4"]
+    }}
+    """
+    
+    # 使用GPT-4 Turbo进行结构化解析
+    response = self.openai.chat.completions.create(
+        model="gpt-4-turbo",
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.3,  # 降低温度，提高一致性
+        response_format={"type": "json_object"}
+    )
+    
+    return json.loads(response.choices[0].message.content)
+```
+
 ### 数据模型
 
 ```
@@ -171,18 +216,110 @@ class TaskDecomposer:
 │   ├── subtasks: List[Task]
 │   ├── dependencies: List[task_id]
 │   ├── priority: Integer
-│   └── status: Enum[pending, running, completed, failed]
+│   ├── status: Enum[pending, running, completed, failed]
+│   ├── retry_count: Integer
+│   ├── max_retries: Integer
+│   └── checkpoint_data: JSON
 ├── Agent（智能体）
 │   ├── agent_id: UUID
 │   ├── skill_tags: List[String]
 │   ├── performance_metrics: Dict
 │   ├── current_load: Float
 │   └── status: Enum[available, busy, offline]
-└── Workflow（工作流）
-    ├── workflow_id: UUID
-    ├── dag: Graph[Task]
-    ├── assigned_agents: Dict[task_id, agent_id]
-    └── execution_log: List[Event]
+├── Workflow（工作流）
+│   ├── workflow_id: UUID
+│   ├── dag: Graph[Task]
+│   ├── assigned_agents: Dict[task_id, agent_id]
+│   ├── execution_log: List[Event]
+│   └── checkpoint_data: JSON
+└── StatePersistence（状态持久化）
+    ├── task_snapshots: Dict[task_id, TaskSnapshot]
+    ├── workflow_state: WorkflowState
+    └── recovery_log: List[RecoveryEvent]
+```
+
+### 状态持久化与崩溃恢复
+
+**1. 状态持久化机制**
+```python
+class StatePersistence:
+    def __init__(self):
+        self.redis = Redis(host='localhost', port=6379)
+        self.postgresql = create_engine('postgresql://user:pass@localhost/db')
+    
+    def save_task_state(self, task):
+        """保存任务状态到Redis和PostgreSQL"""
+        # Redis: 实时缓存，快速访问
+        task_key = f"task:{task.task_id}"
+        self.redis.hset(task_key, mapping={
+            'status': task.status,
+            'retry_count': task.retry_count,
+            'checkpoint_data': json.dumps(task.checkpoint_data),
+            'updated_at': datetime.utcnow().isoformat()
+        })
+        
+        # PostgreSQL: 持久化存储，支持复杂查询
+        self.save_to_postgresql(task)
+    
+    def restore_workflow_state(self, workflow_id):
+        """从持久化存储恢复工作流状态"""
+        # 1. 从PostgreSQL加载基础数据
+        workflow = self.load_workflow_from_db(workflow_id)
+        
+        # 2. 从Redis加载最新状态
+        for task in workflow.tasks:
+            task_key = f"task:{task.task_id}"
+            cached_data = self.redis.hgetall(task_key)
+            if cached_data:
+                task.status = cached_data.get('status', 'pending')
+                task.checkpoint_data = json.loads(cached_data.get('checkpoint_data', '{}'))
+        
+        return workflow
+```
+
+**2. 崩溃恢复机制**
+```python
+class CrashRecovery:
+    def __init__(self):
+        self.persistence = StatePersistence()
+    
+    def recover_from_crash(self):
+        """系统崩溃后的恢复流程"""
+        # 1. 识别未完成任务
+        incomplete_tasks = self.find_incomplete_tasks()
+        
+        recovered_count = 0
+        for task in incomplete_tasks:
+            if task.status == 'running':
+                # 2. 尝试恢复运行中的任务
+                if self.can_recover_task(task):
+                    self.resume_task(task)
+                    recovered_count += 1
+                else:
+                    # 3. 无法恢复则重新排队
+                    self.requeue_task(task)
+        
+        # 4. 记录恢复日志
+        self.log_recovery_attempt(recovered_count, len(incomplete_tasks))
+        
+        return recovered_count
+    
+    def can_recover_task(self, task):
+        """判断任务是否可以恢复"""
+        # 检查checkpoint数据是否存在
+        if not task.checkpoint_data:
+            return False
+        
+        # 检查重试次数
+        if task.retry_count >= task.max_retries:
+            return False
+        
+        # 检查相关Agent是否可用
+        agent = self.get_agent(task.assigned_agent)
+        if not agent or agent.status == 'offline':
+            return False
+        
+        return True
 ```
 
 ### 技术栈建议
@@ -227,7 +364,7 @@ class TaskDecomposer:
   
 - **成功案例建设**：
   - 详细记录每个试点客户的使用场景和效果
-  - 量化展示效率提升数据（目标：提升40%+）
+  - 量化展示效率提升数据（目标：提升40%）
   - 制作视频案例和客户证言，增强市场说服力
 
 **成功标准**：
@@ -345,17 +482,17 @@ class TaskDecomposer:
 
 **第一年**：
 - 开源社区用户：10000+
-- 试用转化：5% → 500+企业客户
+- 试用转化：2% → 100+企业客户
 - 平均客单价：¥3000/月
-- **第一年收入**：¥1800万（SaaS）+ ¥2000万（定制）= ¥3800万
+- **第一年收入**：¥600万（SaaS）+ ¥300万（定制）= ¥900万
 
 **第二年**：
-- 付费客户：1000+
-- **年收入**：¥1.2亿+
+- 付费客户：200+
+- **年收入**：¥3000万
 
 **第三年**：
-- 付费客户：2000+
-- **年收入**：¥3亿+
+- 付费客户：500+
+- **年收入**：¥1亿
 
 ---
 
@@ -368,6 +505,8 @@ class TaskDecomposer:
 | n8n | 可视化工作流、社区活跃 | 无AI智能编排、需预设流程 | AI驱动自动编排 + 智能匹配 |
 | Zapier | 集成丰富、易用性好 | 价格昂贵、无Agent概念 | 企业级Agent协作 + 成本优势 |
 | LangChain | AI生态完善、开发者友好 | 缺乏编排引擎、需编程 | 可视化编排 + 无代码使用 |
+| **CrewAI** | 专注于多Agent协作、LLM集成 | 缺乏工作流编排、任务调度简单 | 完整的编排引擎 + 企业级特性 |
+| **AutoGen** | 微软支持、功能丰富 | 配置复杂、学习曲线陡峭 | 无代码界面 + 智能简化 |
 
 ### 间接竞品
 
@@ -376,6 +515,22 @@ class TaskDecomposer:
 | 人工协调 | 效率低、易出错、不可扩展 |
 | 单一Agent | 无法处理复杂多步骤任务 |
 | 固定工作流 | 缺乏灵活性，无法自适应 |
+
+### 详细竞品对比
+
+| 功能特性 | AI编排引擎 | n8n | Zapier | LangChain | CrewAI | AutoGen |
+|---------|-----------|-----|--------|-----------|--------|---------|
+| AI任务拆解 | ✅ 智能拆解 | ❌ | ❌ | ✅ 需编程 | ✅ 自动拆解 | ⚠️ 基础支持 |
+| Agent能力匹配 | ✅ 智能匹配 | ❌ | ❌ | ❌ | ✅ 技能匹配 | ⚠️ 简单匹配 |
+| 无代码操作 | ✅ 完全无代码 | ✅ 可视化 | ✅ 简单 | ❌ 需编程 | ⚠️ 部分支持 | ❌ 复杂配置 |
+| 企业级特性 | ✅ 完善支持 | ⚠️ 基础 | ✅ 完善 | ❌ 缺乏 | ⚠️ 开源为主 | ⚠️ 企业版 |
+| 价格成本 | 💰 中等 | 💰 低 | 💰💰 高 | 💰 低 | 💰 开源 | 💰 中等 |
+| 学习难度 | 🟢 简单 | 🟢 简单 | 🟢 简单 | 🔴 复杂 | 🟡 中等 | 🔴 复杂 |
+
+**核心竞争优势：**
+1. **唯一结合AI智能编排 + 无代码操作** - CrewAI和AutoGen需要编程，n8n/Zapier缺乏AI智能
+2. **企业级稳定性 + 开发者友好** - 相比LangChain更适合企业使用，相比n8n/Zapier具有AI能力
+3. **成本效益最优** - 在功能完整性、易用性、成本三者间达到最佳平衡
 
 ### 竞争优势
 
@@ -463,20 +618,8 @@ class NLPService:
 
 ---
 
-## 项目评估
-
-**基于 Issue #353 的评估结果**:
-- ✅ 产品经理评估: 8.8/10
-- ✅ 技术专家评估: 8.0/10
-- ✅ 商业分析评估: 9.5/10
-- ✅ 增长黑客评估: 8.0/10
-- ✅ 符合项目规范
-- ✅ 无重大风险点
-
-**综合评分**: 8.6/10 - 高价值企业级基础设施，建议优先启动开发
-
 ---
 
 *Created from Issue #353*
-*Document Version: 2.0*
+*Document Version: 3.0*
 *Last Updated: 2026-03-29*
