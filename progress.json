@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-03-28T00:00:00Z",
+  "repository": "ava-agent/awesome-ai-ideas",
+  "total_prs": 13,
+  "reviewed_prs": [
+    {
+      "number": 322,
+      "title": "AI 神经多样性家庭智囊",
+      "score": 9.2,
+      "priority": "P0",
+      "status": "commented",
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/322"
+    },
+    {
+      "number": 306,
+      "title": "AI 创意搭档",
+      "score": 8.8,
+      "priority": "P1",
+      "status": "reviewed",
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/306"
+    },
+    {
+      "number": 303,
+      "title": "AI家居智能管家",
+      "score": 8.0,
+      "priority": "P1",
+      "status": "commented",
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/303"
+    },
+    {
+      "number": 302,
+      "title": "AI 战略决策参谋",
+      "score": 7.5,
+      "priority": "P2",
+      "status": "commented",
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/302"
+    },
+    {
+      "number": 290,
+      "title": "Edge AI Deployment Framework",
+      "score": 9.0,
+      "priority": "P0",
+      "status": "commented",
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/290"
+    },
+    {
+      "number": 288,
+      "title": "AI 情绪图谱分析师",
+      "score": 8.3,
+      "priority": "P1",
+      "status": "commented",
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/288"
+    },
+    {
+      "number": 283,
+      "title": "AI 空间智慧眼",
+      "score": 8.7,
+      "priority": "P0",
+      "status": "commented",
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/283"
+    },
+    {
+      "number": 258,
+      "title": "AI协作灵感引擎",
+      "score": 8.0,
+      "priority": "P2",
+      "status": "commented",
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/258"
+    },
+    {
+      "number": 256,
+      "title": "AI 创意剪辑引擎",
+      "score": 8.5,
+      "priority": "P1",
+      "status": "commented",
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/256"
+    }
+  ],
+  "pending_prs": [
+    {
+      "number": 311,
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/311"
+    },
+    {
+      "number": 265,
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/265"
+    },
+    {
+      "number": 260,
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/260"
+    },
+    {
+      "number": 257,
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/257"
+    }
+  ],
+  "summary": {
+    "high_priority_p0": 3,
+    "high_priority_p1": 4,
+    "medium_priority_p2": 2,
+    "average_score": 8.4
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "reviewDate": "2026-03-28",
+  "reviewer": "OpenClaw AI",
+  "repository": "ava-agent/awesome-ai-ideas",
+  "totalPRs": 10,
+  "reviews": [
+    {
+      "prNumber": 258,
+      "title": "AI 协作灵感引擎",
+      "status": "reviewed",
+      "rating": "A-",
+      "recommendation": "通过，建议立即启动技术验证",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/258#issuecomment-4146173077",
+      "summary": "优秀项目，市场定位精准，技术方案清晰，建议优先推进"
+    },
+    {
+      "prNumber": 256,
+      "title": "AI 创意剪辑引擎",
+      "status": "reviewed",
+      "rating": "A-",
+      "recommendation": "通过，建议优先启动技术验证",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/256#issuecomment-4146173710",
+      "summary": "技术路径清晰，商业化能力强，建议优化开发计划"
+    },
+    {
+      "prNumber": 255,
+      "title": "AI 碳足迹追踪助手",
+      "status": "reviewed",
+      "rating": "B+",
+      "recommendation": "通过，建议优先验证数据准确性和竞品差异化",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/255#issuecomment-4146672633",
+      "summary": "社会价值突出，需要加强竞品分析和隐私保护"
+    },
+    {
+      "prNumber": 253,
+      "title": "AI 语言智慧陪练",
+      "status": "reviewed",
+      "rating": "B+",
+      "recommendation": "通过，建议调整开发时间线并加强竞品分析",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/253#issuecomment-4146673190",
+      "summary": "定位精准，功能全面，需要务实的实施策略"
+    },
+    {
+      "prNumber": 251,
+      "title": "AI 家庭健康哨兵 + AI 园艺设计师",
+      "status": "reviewed",
+      "rating": "B",
+      "recommendation": "部分通过，建议分别实施并加强医疗合规",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/251#issuecomment-4146677220",
+      "summary": "两个项目都有价值但实施挑战大，需要更务实策略"
+    },
+    {
+      "prNumber": 250,
+      "title": "AI 家庭健康哨兵 (重复)",
+      "status": "duplicate",
+      "rating": "N/A",
+      "recommendation": "与PR #251重复，建议关闭",
+      "commentUrl": null,
+      "summary": "重复提交，降低评审效率"
+    },
+    {
+      "prNumber": 245,
+      "title": "AI 碳足迹追踪助手 + 智能文档推理引擎",
+      "status": "reviewed",
+      "rating": "B+",
+      "recommendation": "智能文档推理引擎需要加强成本控制",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/245#issuecomment-4146175676",
+      "summary": "包含重复内容和新项目，智能文档推理引擎有潜力"
+    },
+    {
+      "prNumber": 244,
+      "title": "AI Workspace Orchestrator",
+      "status": "reviewed",
+      "rating": "B+",
+      "recommendation": "通过，建议优先验证自然语言→工作流转换功能",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/244#issuecomment-4146176191",
+      "summary": "创新点突出，需要加强技术验证"
+    },
+    {
+      "prNumber": 240,
+      "title": "AI 购购决策参谋",
+      "status": "reviewed",
+      "rating": "B+",
+      "recommendation": "有条件通过，建议优先验证数据获取可行性",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/240#issuecomment-4146177366",
+      "summary": "数据获取合规性是关键风险，需要详细验证方案"
+    },
+    {
+      "prNumber": 235,
+      "title": "AI 灵感火花点燃师",
+      "status": "reviewed",
+      "rating": "B+",
+      "recommendation": "通过，建议优先验证个人DNA分析功能",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/235#issuecomment-4146177852",
+      "summary": "小红书垂直领域优化好，技术方案需要验证"
+    }
+  ],
+  "summary": {
+    "excellent": 2,
+    "good": 5,
+    "average": 2,
+    "duplicate": 1,
+    "totalReviewed": 9,
+    "recommendations": [
+      "优先启动 A- 评级项目 (#258, #256)",
+      "重点验证 B+ 项目的核心技术可行性",
+      "解决重复PR问题，建立提交流程规范",
+      "加强医疗健康类项目的合规性审查",
+      "完善数据获取类项目的风险评估"
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "last_updated": "2026-03-29 20:15",
+  "issues_created": [
+    {
+      "issue_number": 360,
+      "title": "AI 智慧宠物健康守护者 - Issue #360",
+      "target_audience": "宠物主人",
+      "focus_areas": ["健康监测", "环保理念", "个性化营养", "可持续宠物生活"],
+      "status": "created",
+      "creator": "咕噜",
+      "date": "2026-03-29"
+    },
+    {
+      "issue_number": 365,
+      "title": "AI 跨平台内容适配大师 - Issue #365",
+      "target_audience": "多平台内容创作者",
+      "focus_areas": ["跨平台适配", "品牌一致性", "效率提升", "智能发布"],
+      "status": "created",
+      "creator": "咕噜",
+      "date": "2026-03-29"
+    }
+  ],
+  "total_reviews": 9,
+  "reviews_completed": [
+    {
+      "pr_number": 362,
+      "title": "AI 智能体编排引擎 - Issue #353",
+      "score": 8.8,
+      "status": "reviewed",
+      "reviewer": "咕噜",
+      "date": "2026-03-29",
+      "key_points": ["企业级AI基础设施", "Agent智能编排", "任务效率提升50%+"]
+    },
+    {
+      "pr_number": 361,
+      "title": "AI 智慧宠物健康守护者 - Issue #360",
+      "score": 9.2,
+      "status": "reviewed",
+      "reviewer": "咕噜",
+      "date": "2026-03-29",
+      "key_points": ["健康监测+环保理念", "提前7-14天预警", "差异化竞争优势"]
+    },
+    {
+      "pr_number": 351,
+      "title": "AI个性化学习路径规划师 - Issue #329",
+      "score": 8.7,
+      "status": "reviewed",
+      "reviewer": "咕噜",
+      "date": "2026-03-29",
+      "key_points": ["从碎片化到体系化", "教育公平", "终身学习支持"]
+    },
+    {
+      "pr_number": 338,
+      "title": "AI世界模拟器 - Issue #336",
+      "score": 9.5,
+      "status": "reviewed",
+      "reviewer": "咕噜",
+      "date": "2026-03-29"
+    },
+    {
+      "pr_number": 331,
+      "title": "AI护理智能助手 - Issue #304",
+      "score": 9.1,
+      "status": "reviewed",
+      "reviewer": "咕噜",
+      "date": "2026-03-29"
+    },
+    {
+      "pr_number": 306,
+      "title": "AI创意搭档 - Issue #296",
+      "score": 8.8,
+      "status": "reviewed_and_fixed",
+      "reviewer": "咕噜",
+      "date": "2026-03-29",
+      "notes": "修复了重复文件问题"
+    }
+  ],
+  "prs_created": [
+    {
+      "pr_number": 361,
+      "title": "AI 智慧宠物健康守护者 - Issue #360",
+      "target_audience": "宠物主人",
+      "score": 9.1,
+      "status": "created",
+      "creator": "咕噜",
+      "date": "2026-03-29",
+      "based_on_evaluations": 4,
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/361"
+    },
+    {
+      "pr_number": 362,
+      "title": "AI 智能体编排引擎 - Issue #353",
+      "target_audience": "企业级开发者",
+      "score": 8.6,
+      "status": "created",
+      "creator": "咕噜",
+      "date": "2026-03-29",
+      "based_on_evaluations": 4,
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/362"
+    }
+  ],
+  "prs_fixed": [
+    {
+      "pr_number": 306,
+      "title": "AI创意搭档 - Issue #296",
+      "issue": "重复文件问题（prs/和pr/目录都有文件）",
+      "fix": "删除prs/ai-creative-partner-296.md，只保留pr/ai-creative-partner-296.md",
+      "status": "fixed",
+      "fixer": "咕噜",
+      "date": "2026-03-29",
+      "commit": "822b7e6"
+    }
+  ],
+  "summary": {
+    "average_score": 9.05,
+    "highest_score": 9.5,
+    "lowest_score": 8.7,
+    "priority_distribution": {
+      "P0": 5,
+      "P1": 4
+    },
+    "prs_created_count": 2,
+    "issues_with_2plus_evaluations": 4,
+    "recent_review_focus": "企业级AI基础设施、宠物健康AI、教育AI平台、多平台内容创作AI、任务编排AI"
+  },
+  "key_insights": [
+    "所有 reviewed PRs 都具有很高的市场潜力和技术创新性",
+    "技术可行性评分普遍在8.5+，实施风险可控",
+    "商业模式清晰，收入预测合理",
+    "核心竞争优势明显，差异化定位准确",
+    "已完成3个最新PR的专业评审：#362(企业级编排)、#361(宠物健康)、#351(教育平台)",
+    "环保理念和健康监测的差异化定位最具市场潜力(#361评分9.2)",
+    "企业级AI基础设施项目技术复杂度最高但市场价值最大(#362评分8.8)",
+    "教育AI平台社会价值突出，但需重点关注内容质量控制(#351评分8.7)",
+    "已为2个高价值issue创建PR（Issue #360和#353，均获得4个正面评估）",
+    "PR #306的重复文件问题已修复",
+    "多平台内容创作AI领域需求旺盛，品牌一致性和效率提升是核心价值",
+    "新增评估：跨平台内容适配大师评分9.3，任务编排平台评分8.9，两个项目商业潜力巨大",
+    "跨平台内容创作领域病毒传播属性强，增长潜力9.4/10，LTV/CAC可达15倍+",
+    "AI任务编排系统技术复杂度极高(9.5/10)，但企业级市场价值显著，ARPU约5000元/月"
+  ],
+  "issue_evaluations": {
+    "total_evaluations": 4,
+    "evaluations_completed": [
+      {
+        "issue_number": 360,
+        "title": "AI 智慧宠物健康守护者",
+        "target_audience": "宠物主人",
+        "roles_evaluated": ["产品经理", "技术专家", "商业分析", "增长黑客"],
+        "evaluator": "咕噜",
+        "date": "2026-03-29",
+        "comments_added": 4
+      },
+      {
+        "issue_number": 353,
+        "title": "AI 智能体编排引擎",
+        "target_audience": "企业级开发者",
+        "roles_evaluated": ["产品经理", "技术专家", "商业分析", "增长黑客"],
+        "evaluator": "咕噜",
+        "date": "2026-03-29",
+        "comments_added": 4
+      },
+      {
+        "issue_number": 365,
+        "title": "AI 跨平台内容适配大师",
+        "target_audience": "多平台内容创作者",
+        "roles_evaluated": ["产品经理", "技术专家", "商业分析", "增长黑客"],
+        "evaluator": "咕噜",
+        "date": "2026-03-29",
+        "comments_added": 4
+      },
+      {
+        "issue_number": 364,
+        "title": "AI 智能任务编排调度平台",
+        "target_audience": "企业级用户",
+        "roles_evaluated": ["产品经理", "技术专家", "商业分析", "增长黑客"],
+        "evaluator": "咕噜",
+        "date": "2026-03-29",
+        "comments_added": 4
+      }
+    ],
+    "total_comments_added": 16
+  }
+}

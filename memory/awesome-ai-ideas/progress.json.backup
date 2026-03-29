@@ -1,0 +1,219 @@
+{
+  "lastUpdated": "2026-03-28T21:17:06Z",
+  "evaluatedIssues": [
+    {
+      "number": 257,
+      "title": "💡 [for 老年人] AI 数字防骗小卫士 - 从手机诈骗防不胜防到安全无忧畅享数字生活",
+      "role": "🎯 产品经理",
+      "evaluatedAt": "2026-03-27T21:17:01Z",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/issues/257#issuecomment-4145325814",
+      "score": 8.5,
+      "assessment": "社会价值高，市场空间大，商业模式清晰"
+    },
+    {
+      "number": 248,
+      "title": "💡 [for AI工具开发者] AI协作灵感引擎 - 从个人创作瓶颈到全球创意碰撞",
+      "role": "👨‍💻 技术专家",
+      "evaluatedAt": "2026-03-27T21:17:06Z",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/issues/248#issuecomment-4145326374",
+      "score": 8.0,
+      "assessment": "工程挑战可控，商业模式是关键"
+    },
+    {
+      "number": 252,
+      "title": "💡 [for 视频剪辑师] AI 创意剪辑引擎 - 从模板化剪辑到每帧都惊艳的视觉故事",
+      "role": "商业分析",
+      "evaluatedAt": "2026-03-27T19:15:25Z",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/issues/252#issuecomment-4144711315",
+      "score": 7.5,
+      "assessment": "商业潜力大，关键是创意质量交付"
+    },
+    {
+      "number": 243,
+      "title": "🎯 AI Ideas Evaluation - Issue #231",
+      "role": "增长黑客",
+      "evaluatedAt": "2026-03-27T19:15:31Z",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/issues/243#issuecomment-4144711856",
+      "score": 7,
+      "assessment": "时机好，但需抢占心智"
+    },
+    {
+      "number": 254,
+      "title": "💡 [for 环保意识族] AI 碳足迹追踪助手 - 从模糊的环保概念到每天可量化的绿色生活",
+      "role": "环保科技",
+      "evaluatedAt": "2026-03-28T20:01:00Z",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/issues/254",
+      "score": 8.0,
+      "assessment": "环保赛道增长迅速，AI+碳中和有政策支持，商业模式多元"
+    }
+  ],
+  "prReviews": [
+    {
+      "prNumber": 256,
+      "title": "💡 [for 视频剪辑师] AI 创意剪辑引擎 - 从模板化剪辑到每帧都惊艳的视觉故事",
+      "reviewedAt": "2026-03-29T06:30:00Z",
+      "score": 8.0,
+      "assessment": "技术架构扎实，市场定位精准，建议增强创意评估指标和成本控制策略",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/256#issuecomment-4145152415"
+    },
+    {
+      "prNumber": 255,
+      "title": "💡 [for 环保意识族] AI 碳足迹追踪助手",
+      "reviewedAt": "2026-03-29T06:35:00Z",
+      "score": 8.0,
+      "assessment": "社会价值突出，用户画像清晰，但需强化隐私保护和算法准确性验证",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/255#issuecomment-4145153432"
+    },
+    {
+      "prNumber": 253,
+      "title": "💡 AI 语言智慧陪练 - 从哑巴外语不敢开口到自信流利对话",
+      "reviewedAt": "2026-03-29T06:40:00Z",
+      "score": 7.5,
+      "assessment": "市场机会明确，功能设计完整，但竞争分析和成本模型需要完善",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/253#issuecomment-4145155679"
+    },
+    {
+      "prNumber": 251,
+      "title": "AI 园艺设计师 + AI 家庭健康哨兵",
+      "reviewedAt": "2026-03-29T06:45:00Z",
+      "score": 7.5,
+      "assessment": "两个项目都有良好潜力，园艺设计师技术门槛较低更适合作为第一个MVP",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/251#issuecomment-4145158673"
+    },
+    {
+      "prNumber": 250,
+      "title": "AI 家庭健康哨兵（重复PR）",
+      "reviewedAt": "2026-03-29T06:50:00Z",
+      "score": 0,
+      "assessment": "与PR 251内容完全重复，建议关闭",
+      "commentUrl": ""
+    },
+    {
+      "prNumber": 245,
+      "title": "AI 碳足迹追踪助手（重复PR）",
+      "reviewedAt": "2026-03-29T06:50:00Z",
+      "score": 0,
+      "assessment": "与PR 255内容完全重复，建议关闭",
+      "commentUrl": ""
+    },
+    {
+      "prNumber": 244,
+      "title": "AI Workspace Orchestrator - 用聊天界面管理多AI工作流",
+      "reviewedAt": "2026-03-29T06:55:00Z",
+      "score": 8.0,
+      "assessment": "技术创新突出，竞品分析详细，但技术实现难度高，企业级要求严格",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/244#issuecomment-4145162115"
+    },
+    {
+      "prNumber": 240,
+      "title": "AI 灵感火花点燃师 + AI 购购决策参谋",
+      "reviewedAt": "2026-03-29T07:00:00Z",
+      "score": 7.5,
+      "assessment": "两个项目都有明确需求和完整方案，需解决API权限和成本控制挑战",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/240#issuecomment-4145167165"
+    },
+    {
+      "prNumber": 235,
+      "title": "💡 AI 灵感火花点燃师（完整版）",
+      "reviewedAt": "2026-03-29T07:05:00Z",
+      "score": 8.5,
+      "assessment": "方案完整优秀，成本控制、隐私保护、风险管理都到位，建议采用用户授权模式",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/pull/235#issuecomment-4145170393"
+    },
+    {
+      "number": 254,
+      "title": "💡 [for 环保意识族] AI 碳足迹追踪助手 - 从模糊的环保概念到每天可量化的绿色生活",
+      "role": "🎯 产品经理",
+      "evaluatedAt": "2026-03-28T20:15:29Z",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/issues/254#issuecomment-4145011314",
+      "score": 8.5,
+      "assessment": "市场价值高，环保赛道增长迅速，AI+碳中和有政策支持。商业模式多元，可做B2C订阅+企业服务。"
+    },
+    {
+      "number": 242,
+      "title": "🎯 AI Ideas Evaluation - Issue #236",
+      "role": "👨‍💻 技术专家",
+      "evaluatedAt": "2026-03-28T20:15:34Z",
+      "commentUrl": "https://github.com/ava-agent/awesome-ai-ideas/issues/242#issuecomment-4145011739",
+      "score": 7.0,
+      "assessment": "架构成熟度中等，需要重点解决数据质量和模型训练成本。建议MVP阶段采用现成API，后期自研优化。"
+    }
+  ],
+  "issues": [
+    {
+      "prNumber": 251,
+      "error": "GraphQL: Projects (classic) is being deprecated in favor of the new Projects experience",
+      "timestamp": "2026-03-28T19:30:00Z",
+      "attempts": 3
+    },
+    {
+      "prNumber": 250,
+      "error": "GraphQL: Projects (classic) is being deprecated in favor of the new Projects experience",
+      "timestamp": "2026-03-28T19:30:15Z",
+      "attempts": 3
+    }
+  ],
+  "createdPRs": [
+    {
+      "prNumber": 253,
+      "issueNumber": 249,
+      "title": "💡 AI 语言智慧陪练 - 从哑巴外语不敢开口到自信流利对话",
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/253",
+      "createdAt": "2026-03-28T19:35:00Z",
+      "assessment": "高价值：语言学习市场规模大，技术实现清晰，商业模式明确"
+    },
+    {
+      "prNumber": 255,
+      "issueNumber": 254,
+      "title": "💡 AI 碳足迹追踪助手 - 从模糊的环保概念到每天可量化的绿色生活",
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/255",
+      "createdAt": "2026-03-28T21:15:00Z",
+      "assessment": "高价值：环保赛道增长迅速，AI+碳中和有政策支持，评分8.5"
+    },
+    {
+      "prNumber": 256,
+      "issueNumber": 252,
+      "title": "💡 [for 视频剪辑师] AI 创意剪辑引擎 - 从模板化剪辑到每帧都惊艳的视觉故事",
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/256",
+      "createdAt": "2026-03-28T21:25:00Z",
+      "assessment": "高价值：创作效率提升显著，市场需求真实，评分7.5"
+    }
+  ],
+  "fixedPRs": [
+    {
+      "prNumber": 251,
+      "title": "AI 园艺设计师",
+      "fixedAt": "2026-03-28T20:45:00Z",
+      "fixes": ["添加技术可行性验证计划", "增加室内植物方案", "添加AI API缓存策略"]
+    },
+    {
+      "prNumber": 245,
+      "title": "智能文档推理引擎",
+      "fixedAt": "2026-03-28T21:00:00Z",
+      "fixes": ["添加详细POC验证计划", "更新成本模型节省80%", "精简文档至280行"]
+    }
+  ],
+  "totalEvaluated": 16,
+  "totalSkipped": 4,
+  "totalCreated": 4,
+  "totalFixed": 2,
+  "createdIssues": [
+    {
+      "issueNumber": 257,
+      "title": "💡 [for 老年人] AI 数字防骗小卫士 - 从手机诈骗防不胜防到安全无忧畅享数字生活",
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/issues/257",
+      "createdAt": "2026-03-28T21:01:00Z",
+      "assessment": "高社会价值：解决老年人数字安全问题，技术实现可行，市场需求明确"
+    }
+  ],
+  "lastReviewSession": {
+    "date": "2026-03-29",
+    "reviewsCompleted": 2,
+    "duplicatesFound": 0,
+    "averageScore": 8.25,
+    "topRecommendations": [
+      "Issue #257 - AI 数字防骗小卫士 - 评分 8.5",
+      "Issue #248 - AI协作灵感引擎 - 评分 8.0"
+    ]
+  }
+}
