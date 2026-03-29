@@ -26,11 +26,11 @@
 <a href="https://github.com/ava-agent/awesome-ai-ideas/commits"><img src="https://img.shields.io/github/last-commit/ava-agent/awesome-ai-ideas?style=flat-square" alt="Last Commit"></a>&nbsp;
 <a href="https://github.com/ava-agent/awesome-ai-ideas/commits"><img src="https://img.shields.io/github/commit-activity/m/ava-agent/awesome-ai-ideas?style=flat-square" alt="Commit Activity"></a>&nbsp;
 <a href="https://github.com/ava-agent/awesome-ai-ideas/graphs/contributors"><img src="https://img.shields.io/github/contributors/ava-agent/awesome-ai-ideas?style=flat-square" alt="Contributors"></a>&nbsp;
-<img src="https://img.shields.io/badge/ideas-50-blue?style=flat-square" alt="Ideas">
+<img src="https://img.shields.io/badge/ideas-60+-blue?style=flat-square" alt="Ideas">
 
 <br>
 
-<a href="https://x.com/intent/tweet?text=Awesome%20AI%20Ideas%20-%20A%20curated%20collection%20of%2050%20AI%20product%20ideas%20with%20complete%20specs&url=https%3A%2F%2Fgithub.com%2Fava-agent%2Fawesome-ai-ideas"><img src="https://img.shields.io/badge/-Share-black?style=flat-square&logo=x" alt="Share on X"></a>&nbsp;
+<a href="https://x.com/intent/tweet?text=Awesome%20AI%20Ideas%20-%20A%20curated%20collection%20of%2060%2B%20AI%20product%20ideas%20with%20complete%20specs&url=https%3A%2F%2Fgithub.com%2Fava-agent%2Fawesome-ai-ideas"><img src="https://img.shields.io/badge/-Share-black?style=flat-square&logo=x" alt="Share on X"></a>&nbsp;
 <a href="https://reddit.com/submit?url=https%3A%2F%2Fgithub.com%2Fava-agent%2Fawesome-ai-ideas&title=Awesome%20AI%20Ideas%20-%2050%20AI%20product%20ideas%20with%20complete%20specs"><img src="https://img.shields.io/badge/-Share-FF4500?style=flat-square&logo=reddit&logoColor=white" alt="Share on Reddit"></a>&nbsp;
 <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2Fava-agent%2Fawesome-ai-ideas"><img src="https://img.shields.io/badge/-Share-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Share on LinkedIn"></a>
 
@@ -49,7 +49,7 @@
 - [不只是灵感列表](#-不只是灵感列表)
 - [精选推荐](#-精选推荐)
 - **创意目录**
-  - [效率工具](#-效率工具) · [知识学习](#-知识学习) · [职业成长](#-职业成长) · [创意娱乐](#-创意娱乐) · [消费决策](#-消费决策) · [生活服务](#-生活服务) · [社交沟通](#-社交沟通)
+  - [效率工具 (13)](#-效率工具) · [知识学习 (6)](#-知识学习) · [职业成长 (10)](#-职业成长) · [创意娱乐 (5)](#-创意娱乐) · [消费决策 (5)](#-消费决策) · [生活服务 (17)](#-生活服务) · [社交沟通 (6)](#-社交沟通)
 - [创意统计](#-创意统计)
 - [如何参与](#-如何参与)
 - [Star History](#star-history)
@@ -160,7 +160,10 @@ _自动化重复劳动、管理日常事务的 AI 工具。_
 
 | 创意 | 一句话卖点 | 状态 |
 |------|-----------|------|
+| [Edge AI 部署框架](./pr/edge-ai-deployment-framework-278.md) | 让大模型在手机、IoT、汽车上高效运行，SmoothQuant+GPTQ 量化 | ⭐ |
 | [AI 浏览器代理调度器](./prs/ai-browser-agent-orchestrator.md) | 定义一次任务 DSL，10 个 Agent 并行执行，2 小时变 5 分钟 | ⭐ |
+| [AI 文件柜管家](./prs/0217-ai-file-cabinet-butler.md) | 纸质文档拍照即归档，从翻箱倒柜 2 小时到 3 秒搜出 | ⭐ |
+| [AI Workspace Orchestrator](./ai-workspace-orchestrator.md) | 用聊天界面管理多 AI 工作流，团队效率提升 | 🟢 |
 | [AI 邮件智能管家](./ideas/ai-email-manager.md) | 让收件箱自己整理自己，自动分类、提取行动项 | 🟢 |
 | [AI 预约管家](./ideas/ai-appointment-manager.md) | 截图识别预约信息，提前 3 天自动提醒，不怕预约撞车 | 🟢 |
 | [AI 订阅管家](./ideas/ai-subscription-manager.md) | 智能追踪数字订阅，发现闲置服务，每月省下冤枉钱 | 🟢 |
@@ -213,7 +216,10 @@ _释放创造力，让 AI 成为你的故事共创者。_
 
 | 创意 | 一句话卖点 | 状态 |
 |------|-----------|------|
+| [AI 创意搭档](./pr/ai-creative-partner-296.md) | 从创作焦虑卡壳到灵感持续涌现的 AI 协作引擎 | ⭐ |
 | [AI 故事世界共创师](./pr/2026-03-25-ai-story-world-creator.md) | 10 秒进入角色扮演世界，从被动刷视频到主动创造故事 | ⭐ |
+| [AI 爆款标题猎手](./prs/187-viral-title-hunter.md) | 10 秒生成 5 个带情绪钩子的标题，专治标题焦虑 | ⭐ |
+| [AI 桌游规则翻译官](./prs/192-ai-boardgame-rule-translator.md) | 拍照 10 秒获得 3 句核心玩法，从听 3 遍还懵到看一眼就会 | ⭐ |
 | [AI 照片故事生成器](./ideas/ai-photo-story-generator.md) | 一键将照片变成精美的故事回忆 | 🟢 |
 
 **[⬆ 返回顶部](#awesome-ai-ideas)**
@@ -238,8 +244,10 @@ _租房、搬家、旅行、健身、宠物 — AI 让日常生活更轻松。_
 
 | 创意 | 一句话卖点 | 状态 |
 |------|-----------|------|
+| [AI 宠物健康守护者](./pr/ai-pet-health-guardian-360.md) | AI 健康管家，智能监测实现全生命周期守护 | ⭐ |
 | [AI 乖狗训练师](./pr/ai-dog-trainer.md) | AI 分析训练视频，30 天教会坐下握手，省下几千块训犬课 | ⭐ |
 | [AI 健身动作纠错镜](./prs/199-fitness-form-coach.md) | 实时识别关节角度，从深蹲腰酸到每个动作都标准有效 | ⭐ |
+| [AI 停车位猎人](./prs/196-ai-parking-hunter.md) | 3 秒看到空位导航，从绕 3 圈找不到到直奔空位 | ⭐ |
 | [AI 租房看房侦探](./ideas/rental-detective/README.md) | 拍照合同，AI 3 秒标注风险条款，10 分钟看出猫腻 | 🟢 |
 | [AI 境外游翻译官](./ideas/ai-travel-translator.md) | 不只是翻译，更是当地文化解读 | 🟢 |
 | [AI 宠物健康日志分析师](./ideas/ai-pet-health-analyst.md) | 通过日常记录提前发现宠物健康问题 | 🟢 |
@@ -248,6 +256,9 @@ _租房、搬家、旅行、健身、宠物 — AI 让日常生活更轻松。_
 | [AI 维权证据助手](./ideas/ai-rights-evidence-assistant.md) | AI 3 秒生成专业投诉文书 + 维权路径指引 | 🟢 |
 | [AI 跑步陪练](./ideas/ai-running-coach.md) | 实时语音鼓励和配速指导，3 周完成首个 5 公里 | 🟢 |
 | [AI 搬家打包指挥官](./ideas/moving-assistant.md) | 拍照识别物品，从手忙脚乱 3 天到半天井然有序 | 🟢 |
+| [AI 碳足迹追踪助手](./ai-carbon-footprint-tracker.md) | 从模糊环保概念到每天可量化的绿色生活 | 🟢 |
+| [AI 园艺设计师](./ai-gardening-designer.md) | 从植物杀手到打造阳台小森林的 AI 养护系统 | 🟢 |
+| [AI 家庭健康哨兵](./ai-family-health-guardian.md) | 远程实时关注独居老人健康状况 | 🟢 |
 | [AI 宠物行为翻译官](./proposals/pet-behavior-translator.md) | 拍摄视频，AI 即时翻译宠物行为含义 | 💡 |
 
 **[⬆ 返回顶部](#awesome-ai-ideas)**
@@ -262,6 +273,7 @@ _破冰、跨代沟通、数字素养 — AI 助力人际连接。_
 | [AI 数字技能陪练](./pr/digital-skills-coach.md) | 60 岁也能独立操作手机，不再求助儿女 | ⭐ |
 | [AI 代际沟通翻译官](./ideas/ai-intergenerational-translator.md) | 让父母和成年子女真正听懂彼此 | 🟢 |
 | [AI 聚会召集官](./ideas/ai-meeting-organizer.md) | AI 5 分钟锁定聚会时间地点，告别讨论 3 天定不下来 | 🟢 |
+| [AI 数字防骗小卫士](./ai-safety-guardian.md) | 专为老年人设计的智能防骗助手，安全畅享数字生活 | 🟢 |
 | [AI 方言传承助手](./proposals/ai-dialect-heritage-assistant.md) | 录下方言祝福，让乡音在家族中代代相传 | 💡 |
 
 **[⬆ 返回顶部](#awesome-ai-ideas)**
@@ -272,11 +284,11 @@ _破冰、跨代沟通、数字素养 — AI 助力人际连接。_
 
 | 阶段 | 说明 | 数量 |
 |------|------|:----:|
-| ⭐ 详细设计 | 经过 PR 评审的完整设计方案 | 16 |
-| 🟢 可开发 | 已评审，可直接开始开发 | 29 |
+| ⭐ 详细设计 | 经过 PR 评审的完整设计方案 | 23 |
+| 🟢 可开发 | 已评审，可直接开始开发 | 34 |
 | 💡 提案中 | 早期想法，欢迎讨论完善 | 4 |
 | 📋 RFC | 技术规格文档 | 1 |
-| **总计** | | **50** |
+| **总计** | | **62** |
 
 ---
 
@@ -312,8 +324,8 @@ _破冰、跨代沟通、数字素养 — AI 助力人际连接。_
 ```
 awesome-ai-ideas/
 ├── ideas/              # 🟢 已评审创意（29 个，可直接开发）
-├── pr/                 # ⭐ 详细设计方案（11 个，经过 PR 评审）
-├── prs/                # ⭐ PR 提交的设计方案（8 个）
+├── pr/                 # ⭐ 详细设计方案（14 个，经过 PR 评审）
+├── prs/                # ⭐ PR 提交的设计方案（13 个）
 ├── proposals/          # 💡 早期提案（5 个，待讨论完善）
 ├── docs/rfc/           # 📋 技术 RFC 文档
 ├── .github/            # Issue 和 PR 模板
