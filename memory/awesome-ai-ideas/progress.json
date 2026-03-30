@@ -1,0 +1,48 @@
+{
+  "issues": [
+    {
+      "id": 468,
+      "title": "💡 [for 宠物主人] AI宠物生活智慧管家 - 从焦虑养宠到科学养宠的全面宠物健康管理革命",
+      "created_at": "2026-03-30T17:01:00Z",
+      "status": "created",
+      "evaluated_at": "2026-03-30T17:15:35Z",
+      "role": "🎯 产品经理",
+      "comment_id": "4156722146",
+      "pr_created": true,
+      "pr_number": 469,
+      "pr_branch": "pr-ai-pet-life-wisdom-steward-468",
+      "created_at": "2026-03-31T01:30:00Z"
+    },
+    {
+      "id": 461,
+      "title": "💡 [for 创意设计师] AI创意工作台 - 从灵感枯竭和碎片化协作到跨媒体创作一体化革命",
+      "created_at": "2026-03-30T14:03:24Z",
+      "status": "created",
+      "evaluated_at": "2026-03-30T17:15:41Z",
+      "role": "👨‍💻 技术专家",
+      "comment_id": "4156722767",
+      "pr_created": true,
+      "pr_number": 470,
+      "pr_branch": "pr-ai-creative-workbench-461",
+      "created_at": "2026-03-31T01:30:00Z"
+    }
+  ],
+  "last_updated": "2026-03-31T01:30:00Z",
+  "total_created": 4,
+  "total_evaluated": 2,
+  "pr_created_today": 2,
+  "recent_prs": [
+    {
+      "number": 469,
+      "title": "AI宠物生活智慧管家",
+      "branch": "pr-ai-pet-life-wisdom-steward-468",
+      "created_at": "2026-03-31T01:30:00Z"
+    },
+    {
+      "number": 470,
+      "title": "AI创意工作台",
+      "branch": "pr-ai-creative-workbench-461",
+      "created_at": "2026-03-31T01:30:00Z"
+    }
+  ]
+}
