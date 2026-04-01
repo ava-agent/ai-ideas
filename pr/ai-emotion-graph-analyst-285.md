@@ -268,9 +268,11 @@ AI情绪图谱分析师：一套完整的多模态情绪分析系统，通过语
 
 | 阶段 | AI模型 | 基础设施 | 人力成本 | 其他 | 总计 |
 |------|---------|---------|---------|------|------|
-| MVP | $4,000 | $2,500 | ¥183,000 | ¥30,000 | ¥219,500 |
-| V2 | $3,500 | $3,000 | ¥137,000 | ¥50,000 | ¥193,500 |
-| V3 | $5,000 | $4,000 | ¥114,000 | ¥80,000 | ¥203,000 |
+| MVP | ¥28,800 | ¥18,000 | ¥183,000 | ¥30,000 | ¥259,800 |
+| V2 | ¥25,200 | ¥21,600 | ¥137,000 | ¥50,000 | ¥233,800 |
+| V3 | ¥36,000 | ¥28,800 | ¥114,000 | ¥80,000 | ¥258,800 |
+
+> 注：AI模型和基础设施成本按 1 USD ≈ 7.2 RMB 汇率换算
 
 ### 硬件成本
 
@@ -304,7 +306,7 @@ AI情绪图谱分析师：一套完整的多模态情绪分析系统，通过语
 ### 性能基准测试
 
 **测试环境**
-- 服务器：4核8G, 16G内存
+- 服务器：4核CPU, 16G内存
 - GPU：RTX 3090 24GB
 - 网络：100Mbps带宽
 - 并发：50个同时请求
@@ -451,7 +453,7 @@ AI情绪图谱分析师：一套完整的多模态情绪分析系统，通过语
 
 - [Affectiva Emotion Recognition API](https://developer.affectiva.com/)
 - [Beyond Verbal Voice Analysis](https://www.beyondverbal.com/)
-- [FER+ Face Emotion Recognition](https://github.com/davidsandberg/facenet)
+- [FER+ Face Emotion Recognition](https://github.com/microsoft/FERPlus)
 - [Neo4j Graph Database](https://neo4j.com/)
 
 ---
