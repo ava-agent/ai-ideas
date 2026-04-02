@@ -2,14 +2,14 @@
 
 # Awesome AI Ideas
 
-### 一个精心策划的AI产品创意集合
+### 精心策划的 AI 产品创意合集
 
-每个创意都包含完整的产品设计、技术规格和商业分析 — 随时可以开始构建
+每个创意都包含完整的产品设计、技术方案和商业分析 — 拿来就能开发
 
 <br>
 
-<a href="#-生产力工具">浏览创意</a> &nbsp;&middot;&nbsp;
-<a href="./TEMPLATE.md">提交创意</a> &nbsp;&middot;&nbsp;
+<a href="#-效率工具">浏览创意</a> &nbsp;&middot;&nbsp;
+<a href="./TEMPLATE.md">提交想法</a> &nbsp;&middot;&nbsp;
 <a href="../../issues">参与讨论</a> &nbsp;&middot;&nbsp;
 <a href="./README_EN.md">English</a>
 
@@ -26,12 +26,12 @@
 <a href="https://github.com/ava-agent/awesome-ai-ideas/commits"><img src="https://img.shields.io/github/last-commit/ava-agent/awesome-ai-ideas?style=flat-square" alt="Last Commit"></a>&nbsp;
 <a href="https://github.com/ava-agent/awesome-ai-ideas/commits"><img src="https://img.shields.io/github/commit-activity/m/ava-agent/awesome-ai-ideas?style=flat-square" alt="Commit Activity"></a>&nbsp;
 <a href="https://github.com/ava-agent/awesome-ai-ideas/graphs/contributors"><img src="https://img.shields.io/github/contributors/ava-agent/awesome-ai-ideas?style=flat-square" alt="Contributors"></a>&nbsp;
-<img src="https://img.shields.io/badge/ideas-50-blue?style=flat-square" alt="Ideas">
+<img src="https://img.shields.io/badge/ideas-61+-blue?style=flat-square" alt="Ideas">
 
 <br>
 
-<a href="https://x.com/intent/tweet?text=Awesome%20AI%20Ideas%20-%20A%20curated%20collection%20of%2050%20AI%20product%20ideas%20with%20complete%20specs&url=https%3A%2F%2Fgithub.com%2Fava-agent%20awesome-ai-ideas"><img src="https://img.shields.io/badge/-Share-black?style=flat-square&logo=x" alt="Share on X"></a>&nbsp;
-<a href="https://reddit.com/submit?url=https%3A%2F%2Fgithub.com%2Fava-agent%2Fawesome-ai-ideas&title=Awesome%20AI%20Ideas%20-%2050%20AI%20product%20ideas%20with%20complete%20specs"><img src="https://img.shields.io/badge/-Share-FF4500?style=flat-square&logo=reddit&logoColor=white" alt="Share on Reddit"></a>&nbsp;
+<a href="https://x.com/intent/tweet?text=Awesome%20AI%20Ideas%20-%20A%20curated%20collection%20of%2061%2B%20AI%20product%20ideas%20with%20complete%20specs&url=https%3A%2F%2Fgithub.com%2Fava-agent%2Fawesome-ai-ideas"><img src="https://img.shields.io/badge/-Share-black?style=flat-square&logo=x" alt="Share on X"></a>&nbsp;
+<a href="https://reddit.com/submit?url=https%3A%2F%2Fgithub.com%2Fava-agent%2Fawesome-ai-ideas&title=Awesome%20AI%20Ideas%20-%2061%20AI%20product%20ideas%20with%20complete%20specs"><img src="https://img.shields.io/badge/-Share-FF4500?style=flat-square&logo=reddit&logoColor=white" alt="Share on Reddit"></a>&nbsp;
 <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2Fava-agent%2Fawesome-ai-ideas"><img src="https://img.shields.io/badge/-Share-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Share on LinkedIn"></a>
 
 </div>
@@ -39,21 +39,21 @@
 <br>
 
 > [!IMPORTANT]
-> 如果你发现这个仓库有帮助，请点击 **Star** 按钮！每次Star都能激励我们持续更新。
+> 如果这个仓库对你有帮助，请点击右上角的 **Star** 收藏！你的每一颗 Star 都是我们持续更新的动力。
 
 <details>
 <summary><kbd>&nbsp;目录&nbsp;</kbd></summary>
 
 &nbsp;
 
-- [不只是创意列表](#-不只是创意列表)
-- [项目亮点](#-项目亮点)
+- [不只是灵感列表](#-不只是灵感列表)
+- [精选推荐](#-精选推荐)
 - **创意目录**
-  - [生产力工具](#-生产力工具) · [知识与学习](#-知识与学习) · [职业成长](#-职业成长) · [创意娱乐](#-创意娱乐) · [智能消费](#-智能消费) · [生活服务](#-生活服务) · [社交沟通](#-社交沟通)
-- [统计信息](#-统计信息)
-- [如何贡献](#-如何贡献)
-- [Star历史](#star-history)
-- [贡献者](#贡献者)
+  - [效率工具 (13)](#-效率工具) · [知识学习 (6)](#-知识学习) · [职业成长 (10)](#-职业成长) · [创意娱乐 (5)](#-创意娱乐) · [消费决策 (5)](#-消费决策) · [生活服务 (18)](#-生活服务) · [社交沟通 (6)](#-社交沟通)
+- [创意统计](#-创意统计)
+- [如何参与](#-如何参与)
+- [Star History](#star-history)
+- [贡献者](#-贡献者)
 
 &nbsp;
 
@@ -61,7 +61,7 @@
 
 ---
 
-## 🌟 不只是创意列表
+## 🌟 不只是灵感列表
 
 <table>
 <tr>
@@ -69,279 +69,320 @@
 <br>
 <h3>📋</h3>
 <b>产品设计</b><br>
-<sub>用户画像 · 功能规格<br>使用场景 · 差异化</sub>
+<sub>用户画像 · 功能设计<br>使用场景 · 差异化定位</sub>
 <br><br>
 </td>
 <td align="center" width="25%">
 <br>
 <h3>🔧</h3>
 <b>技术方案</b><br>
-<sub>系统架构 · 技术栈<br>API设计 · 成本估算</sub>
+<sub>系统架构 · 技术栈<br>API 设计 · 成本估算</sub>
 <br><br>
 </td>
 <td align="center" width="25%">
 <br>
 <h3>💰</h3>
 <b>商业分析</b><br>
-<sub>变现模式 · 竞品分析<br>单位经济 · 收入预测</sub>
+<sub>变现模式 · 竞品分析<br>单位经济 · 收入预估</sub>
 <br><br>
 </td>
 <td align="center" width="25%">
 <br>
 <h3>📊</h3>
-<b>路线图</b><br>
-<sub>MVP定义 · 分阶段计划<br>成功指标 · 风险评估</sub>
+<b>实施路线</b><br>
+<sub>MVP 定义 · 分阶段计划<br>成功指标 · 风险评估</sub>
 <br><br>
 </td>
 </tr>
 </table>
 
 > [!TIP]
-> **典型创意列表** — "一个用AI做XX的应用"（一句话，没有深度）
-
-> [!NOTE]
-> **我们的创意文档** — 完整的产品设计，包含用户调研、技术实现、商业模式和具体实施路径
-
----
-
-## 📈 项目亮点
-
-- 🎯 **精选优质创意**：每个创意都经过专业评审，确保商业可行性
-- 🔧 **技术实现完整**：包含详细的架构设计、技术栈选择和成本估算
-- 💼 **商业分析充分**：从市场定位到盈利模式的完整商业规划
-- 🚀 **实施路径清晰**：分阶段开发计划，包含里程碑和成功指标
-- 🌟 **社区驱动更新**：持续收集新创意，保持内容新鲜度和实用性
+> **普通灵感列表** — "一个用 AI 做 XX 的 App"（一句话，没有深度）
+>
+> **Awesome AI Ideas** — 完整的产品方案：用户画像、技术架构、MVP 规划、商业模式、竞品分析，拿来就能开发
 
 ---
 
-## 💡 创意目录
+## 🔥 精选推荐
 
-### 🛠️ 生产力工具
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| 创意 | 状态 | 技术难度 | 商业价值 | 文档 |
-|------|------|---------|----------|------|
-| [AI Workspace Orchestrator](./ai-workspace-orchestrator.md) | ✅ 已评审 | 🔴 高 | ⭐⭐⭐⭐ | [详情](./ai-workspace-orchestrator.md) |
-| [AI Team Collaboration Enhancer](./ai-team-collaboration-enhancer-410.md) | ✅ 已评审 | 🔴 高 | ⭐⭐⭐⭐⭐ | [详情](./ai-team-collaboration-enhancer-410.md) |
-| [AI Enterprise Knowledge Manager](./PR-381-AI-Enterprise-Knowledge-Manager.md) | ✅ 已评审 | 🔴 高 | ⭐⭐⭐⭐ | [详情](./PR-381-AI-Enterprise-Knowledge-Manager.md) |
-| [AI Compliance Adaptive System](./ai-compliance-adaptive-system-592.md) | ✅ 已评审 | 🔴 高 | ⭐⭐⭐⭐ | [详情](./ai-compliance-adaptive-system-592.md) |
-| [AI Safety Guardian](./ai-safety-guardian.md) | ✅ 已评审 | 🔴 高 | ⭐⭐⭐ | [详情](./ai-safety-guardian.md) |
+### [AI 二手物品定价师](./pr/ai-secondhand-pricing-agent.md) `⭐`
+拍张照片，AI 3 秒给出精准估价 + 生成吸睛描述，从纠结 3 天到 10 分钟上架卖出。
 
-### 🧠 知识与学习
+</td>
+<td width="50%" valign="top">
 
-| 创意 | 状态 | 技术难度 | 商业价值 | 文档 |
-|------|------|---------|----------|------|
-| [AI Learning Partner](./PR-383-AI-Learning-Partner.md) | ✅ 已评审 | 🟡 中 | ⭐⭐⭐⭐ | [详情](./PR-383-AI-Learning-Partner.md) |
-| [AI Language Tutor](./ai-language-tutor.md) | ✅ 已评审 | 🟡 中 | ⭐⭐⭐⭐ | [详情](./ai-language-tutor.md) |
-| [AI Language Partner PR](./ai-language-partner-pr.md) | ✅ 已评审 | 🟡 中 | ⭐⭐⭐⭐ | [详情](./ai-language-partner-pr.md) |
-| [AI Parenting Wisdom Companion](./PR-380-AI-Parenting-Wisdom-Companion.md) | ✅ 已评审 | 🟡 中 | ⭐⭐⭐⭐⭐ | [详情](./PR-380-AI-Parenting-Wisdom-Companion.md) |
-| [AI Family Health Guardian](./ai-family-health-guardian.md) | ✅ 已评审 | 🟡 中 | ⭐⭐⭐⭐ | [详情](./ai-family-health-guardian.md) |
+### [AI 晋升导航员](./pr/2026-03-26-ai-promotion-navigator.md) `⭐`
+识别能力短板，生成 3 个月冲刺计划，从被动等机会到主动设计晋升路径。
 
-### 💼 职业成长
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-| 创意 | 状态 | 技术难度 | 商业价值 | 文档 |
-|------|------|---------|----------|------|
-| [AI Career Coach](./proposals/ai-career-coach.md) | 🔄 评审中 | 🟡 中 | ⭐⭐⭐⭐ | [详情](./proposals/ai-career-coach.md) |
-| [AI Interview Preparation Assistant](./proposals/ai-interview-prep.md) | 🔄 评审中 | 🟡 中 | ⭐⭐⭐⭐ | [详情](./proposals/ai-interview-prep.md) |
+### [AI 租房看房侦探](./ideas/rental-detective/README.md) `🟢`
+拍照合同，AI 3 秒标注风险条款，10 分钟看出房源猫腻。完整的 OCR 识别方案和法律知识库设计。
 
-### 🎨 创意娱乐
+</td>
+<td width="50%" valign="top">
 
-| 创意 | 状态 | 技术难度 | 商业价值 | 文档 |
-|------|------|---------|----------|------|
-| [AI Music Creation Companion](./ai-music-creation-companion-407.md) | ✅ 已评审 | 🔴 高 | ⭐⭐⭐⭐ | [详情](./ai-music-creation-companion-407.md) |
-| [AI Creative Video Editor](./ai-creative-video-editor.md) | ✅ 已评审 | 🔴 高 | ⭐⭐⭐⭐ | [详情](./ai-creative-video-editor.md) |
-| [AI Gardening Designer](./ai-gardening-designer.md) | ✅ 已评审 | 🟡 中 | ⭐⭐⭐ | [详情](./ai-gardening-designer.md) |
+### [AI 破冰对话教练](./pr/2026-03-25-ai-icebreaker-coach.md) `⭐`
+社恐遇到领导时，AI 实时推送 3 个破冰话题。融合场景感知和关系图谱的对话推荐系统。
 
-### 🛒 智能消费
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-| 创意 | 状态 | 技术难度 | 商业价值 | 文档 |
-|------|------|---------|----------|------|
-| [AI Smart Home Assistant](./PR-382-AI-Smart-Home-Assistant.md) | ✅ 已评审 | 🟡 中 | ⭐⭐⭐⭐⭐ | [详情](./PR-382-AI-Smart-Home-Assistant.md) |
-| [AI Shopping Advisor](./proposals/ai-shopping-advisor.md) | 🔄 评审中 | 🟢 低 | ⭐⭐⭐ | [详情](./proposals/ai-shopping-advisor.md) |
-| [AI Price Tracker](./proposals/ai-price-tracker.md) | 🔄 评审中 | 🟢 低 | ⭐⭐⭐ | [详情](./proposals/ai-price-tracker.md) |
+### [AI 知识产品化助手](./pr/knowledge-productizer.md) `⭐`
+7 天把专业经验变成可售卖课程。对话式引导 + 自动课程大纲生成 + 内容质量评估。
 
-### 🏥 生活服务
+</td>
+<td width="50%" valign="top">
 
-| 创意 | 状态 | 技术难度 | 商业价值 | 文档 |
-|------|------|---------|----------|------|
-| [AI Chronic Disease Health Companion](./docs/ai-chronic-disease-health-companion/README.md) | 🟢 已评审 | 🔴 高 | ⭐⭐⭐⭐⭐ | [详情](./docs/ai-chronic-disease-health-companion/README.md) |
-| [AI Postpartum Recovery Assistant](./ai-postpartum-recovery-assistant.md) | ✅ 已评审 | 🟡 中 | ⭐⭐⭐⭐ | [详情](./ai-postpartum-recovery-assistant.md) |
-| [AI Carbon Footprint Tracker](./ai-carbon-footprint-tracker.md) | ✅ 已评审 | 🟡 中 | ⭐⭐⭐⭐ | [详情](./ai-carbon-footprint-tracker.md) |
-| [AI Emotional Companion](./ai-emotional-companion-411.md) | ✅ 已评审 | 🟡 中 | ⭐⭐⭐⭐ | [详情](./ai-emotional-companion-411.md) |
-| [AI Family Health Guardian](./ai-family-health-guardian.md) | ✅ 已评审 | 🟡 中 | ⭐⭐⭐⭐ | [详情](./ai-family-health-guardian.md) |
+### [AI 咖啡风味探索师](./pr/2026-03-26-ai-coffee-flavor-explorer.md) `⭐`
+拍豆袋标签，引导品鉴训练，从只喝拿铁到盲猜产区。
 
-### 🌐 社交沟通
+</td>
+</tr>
+</table>
 
-| 创意 | 状态 | 技术难度 | 商业价值 | 文档 |
-|------|------|---------|----------|------|
-| [AI Social Network Moderator](./proposals/ai-social-moderator.md) | 🔄 评审中 | 🔴 高 | ⭐⭐⭐⭐ | [详情](./proposals/ai-social-moderator.md) |
-| [AI Cross-Cultural Communication Assistant](./proposals/ai-cross-cultural.md) | 🔄 评审中 | 🟡 中 | ⭐⭐⭐⭐ | [详情](./proposals/ai-cross-cultural.md) |
-
-### 🚀 新增创意
-
-| 创意 | 状态 | 技术难度 | 商业价值 | 文档 |
-|------|------|---------|----------|------|
-| [AI Collaboration Inspiration Engine](./ai-collaboration-inspiration-engine.md) | ✅ 已评审 | 🟡 中 | ⭐⭐⭐⭐ | [详情](./ai-collaboration-inspiration-engine.md) |
-| [AI Global Finance Navigator](./ai-global-finance-navigator.md) | ✅ 已评审 | 🔴 高 | ⭐⭐⭐⭐ | [详情](./ai-global-finance-navigator.md) |
-| [AI Agent Safety Sandbox](./ai-agent-safety-sandbox-591.md) | ✅ 已评审 | 🔴 高 | ⭐⭐⭐⭐⭐ | [详情](./ai-agent-safety-sandbox-591.md) |
-| [AI DeFi Risk Alert System](./ai-defi-risk-alert-system-412.md) | ✅ 已评审 | 🔴 高 | ⭐⭐⭐ | [详情](./ai-defi-risk-alert-system-412.md) |
+**[⬆ 返回顶部](#awesome-ai-ideas)**
 
 ---
 
-## 📊 统计信息
+## 🤖 效率工具
 
-- 📝 **总创意数**: 50+ 个精选AI产品创意
-- ✅ **已评审**: 42 个创意已完成详细设计
-- 🔄 **评审中**: 8 个创意正在评审
-- 🌟 **高价值创意**: 15 个具有巨大商业潜力的创意
-- 🔧 **技术完整**: 38 个包含完整技术方案的创意
-- 💼 **商业可行**: 35 个具备明确变现模式的创意
+_自动化重复劳动、管理日常事务的 AI 工具。_
 
-### 📈 创意分类统计
+| 创意 | 一句话卖点 | 状态 |
+|------|-----------|------|
+| [Edge AI 部署框架](./pr/edge-ai-deployment-framework-278.md) | 让大模型在手机、IoT、汽车上高效运行，SmoothQuant+GPTQ 量化 | ⭐ |
+| [AI 浏览器代理调度器](./prs/ai-browser-agent-orchestrator.md) | 定义一次任务 DSL，10 个 Agent 并行执行，2 小时变 5 分钟 | ⭐ |
+| [AI 文件柜管家](./prs/0217-ai-file-cabinet-butler.md) | 纸质文档拍照即归档，从翻箱倒柜 2 小时到 3 秒搜出 | ⭐ |
+| [AI Workspace Orchestrator](./ai-workspace-orchestrator.md) | 用聊天界面管理多 AI 工作流，团队效率提升 | 🟢 |
+| [AI 邮件智能管家](./ideas/ai-email-manager.md) | 让收件箱自己整理自己，自动分类、提取行动项 | 🟢 |
+| [AI 预约管家](./ideas/ai-appointment-manager.md) | 截图识别预约信息，提前 3 天自动提醒，不怕预约撞车 | 🟢 |
+| [AI 订阅管家](./ideas/ai-subscription-manager.md) | 智能追踪数字订阅，发现闲置服务，每月省下冤枉钱 | 🟢 |
+| [AI 智能合同阅读助手](./ideas/ai-contract-reader.md) | 拍照即分析法律条款，风险一目了然 | 🟢 |
+| [AI PR 自动摘要](./ideas/ai-pr-summary-analyzer.md) | AI 分析 PR 变更，生成摘要、分类影响，Code Review 更高效 | 🟢 |
+| [AI 每日简报助手](./ideas/ai-daily-briefing.md) | 每天早上，AI 为你生成个性化技术新闻摘要 | 🟢 |
+| [AI 会议健康守护者](./ideas/ai-meeting-health-guardian.md) | 智能守护会议健康，自动提醒休息、会后恢复建议 | 🟢 |
+| [AI 数字断舍离助手](./ideas/ai-digital-declutter-assistant.md) | 智能分析数字生活，一键清理数字囤积 | 🟢 |
+| [AI 任务拆解启动器](./proposals/task-decomposer.md) | 3 秒拆成 5 分钟微步骤，专治拖延症 | 💡 |
 
-| 分类 | 数量 | 平均商业价值 | 平均技术难度 |
-|------|------|-------------|-------------|
-| 生产力工具 | 5 | ⭐⭐⭐⭐ | 🔴 高 |
-| 知识与学习 | 5 | ⭐⭐⭐⭐ | 🟡 中 |
-| 职业成长 | 2 | ⭐⭐⭐⭐ | 🟡 中 |
-| 创意娱乐 | 3 | ⭐⭐⭐ | 🟡 中 |
-| 智能消费 | 3 | ⭐⭐⭐ | 🟢 低 |
-| 生活服务 | 5 | ⭐⭐⭐⭐ | 🟡 中 |
-| 社交沟通 | 2 | ⭐⭐⭐⭐ | 🟡 中 |
-| 新增创意 | 4 | ⭐⭐⭐⭐ | 🔴 高 |
-
----
-
-## 🤝 如何贡献
-
-我们欢迎各种形式的贡献：
-
-### 📝 提交新创意
-1. 阅读 [创意文档模板](./TEMPLATE.md)
-2. 创建符合格式的新创意文档
-3. 通过 [Issues](../../issues) 提交你的创意
-4. 等待专业团队评审
-
-### 🔄 改进现有创意
-- 修正技术方案中的错误
-- 补充商业分析细节
-- 提供实施建议
-- 分享相关资源
-
-### 🌟 评审创意
-如果你是技术专家、产品经理或行业专家，欢迎参与评审：
-- 在Issues中提供专业意见
-- 参与讨论和投票
-- 帮助筛选高质量创意
-
-### 💡 贡献内容
-- 添加新的技术实现方案
-- 提供市场调研数据
-- 分享成功案例和经验
-- 翻译文档到其他语言
+**[⬆ 返回顶部](#awesome-ai-ideas)**
 
 ---
 
-## 🌟 慢性病健康伴侣 (AI Chronic Disease Health Companion)
+## 📚 知识学习
 
-**🆕 最新添加的高价值创意**
+_更高效地获取、整理和内化知识的 AI 助手。_
 
-[AI智能健康生活伙伴](./docs/ai-chronic-disease-health-companion/README.md) 是我们最新添加的顶级创意，针对中国3亿慢性病患者的巨大市场。
+| 创意 | 一句话卖点 | 状态 |
+|------|-----------|------|
+| [AI 知识产品化助手](./pr/knowledge-productizer.md) | 7 天把专业经验变成可售卖课程，实现知识变现 | ⭐ |
+| [AI 书籍消化助手](./prs/200-ai-book-digest-assistant.md) | 从买书如山倒到每周消化一本书，个性化阅读推荐 | ⭐ |
+| [AI 遗忘曲线复习助手](./ideas/spaced-repetition-system.md) | 基于艾宾浩斯遗忘曲线，在最优时间点推送复习（[RFC](./docs/rfc/rfc-reading-knowledge-assimilation.md)） | 🟢 |
+| [AI 代码库知识地图](./ideas/code-knowledge-map-generator.md) | 自动分析代码库，生成交互式知识地图，新人快速上手 | 🟢 |
+| [AI 语音笔记结构化助手](./ideas/ai-voice-notes-organizer.md) | 语音输入自动转为结构化笔记，智能分类关联 | 🟢 |
+| [AI 语音笔记整理师](./ideas/voice-notes-structure.md) | 让零散的语音想法自动井井有条 | 🟢 |
 
-### 🎯 核心特色
-- **社会价值**：解决慢性病管理负担和心理压力
-- **技术先进**：多模态AI整合、知识图谱、边缘计算
-- **商业明确**：多元化收入来源，12个月实施路径
-- **评审结果**：🟢 可开发（已评审）- 优先启动MVP开发
-
-### 📊 详细信息
-- **目标用户**：糖尿病、高血压、心脏病等慢性病患者
-- **市场规模**：年化2.3亿美元，毛利率70%
-- **技术栈**：Python+FastAPI + React Native + 多模态AI
-- **实施周期**：6个月MVP + 6个月完善 + 商业化
+**[⬆ 返回顶部](#awesome-ai-ideas)**
 
 ---
 
-## ⭐ 特色项目精选
+## 💼 职业成长
 
-### 🔥 最具商业价值
-1. **AI智能健康生活伴侣** - ⭐⭐⭐⭐⭐
-   - 3亿慢性病患者市场
-   - 完整的健康管理解决方案
-   - 多元化收入模式
+_面试、演讲、谈判、晋升 — 加速职业发展的 AI 教练。_
 
-2. **AI团队协作增强器** - ⭐⭐⭐⭐⭐
-   - 解决远程协作痛点
-   - 大企业级市场
-   - 高利润服务模式
+| 创意 | 一句话卖点 | 状态 |
+|------|-----------|------|
+| [AI 英语口语陪练](./pr/ai-english-speaking-coach.md) | 雅思考前每天练 30 分钟，省下每小时 200 元外教课费用 | ⭐ |
+| [AI 晋升导航员](./pr/2026-03-26-ai-promotion-navigator.md) | 识别能力短板，生成 3 个月晋升冲刺计划 | ⭐ |
+| [AI 演讲自信教练](./prs/0157-speech-confidence-coach.md) | 汇报前 30 分钟陪练开场白，从上台腿抖到从容控场 | ⭐ |
+| [AI 拖延模式分析师](./prs/ai-procrastination-analyzer.md) | 找到拖延根因，3 天从「明天一定改」的循环中解脱 | ⭐ |
+| [AI 面试场景模拟教练](./ideas/ai-interview-coach.md) | 模拟真实面试场景，从紧张卡壳到从容应答 | 🟢 |
+| [AI 职场软技能导师](./ideas/ai-career-soft-skills-coach.md) | 会议前 10 分钟生成发言要点和问答预案 | 🟢 |
+| [AI 技术会议发言教练](./ideas/ai-tech-meeting-speaking-coach.md) | 专治「开会不敢说话」的技术人，实时提示关键问题 | 🟢 |
+| [AI 口语陪练伴侣](./ideas/ai-speaking-companion.md) | 24/7 外语陪练，场景化对话 + 实时纠音 | 🟢 |
+| [AI 错误信息诊断师](./ideas/ai-error-diagnostician.md) | 一键诊断错误根因，基于上下文提供精准修复方案 | 🟢 |
+| [AI 薪资谈判教练](./proposals/ai-salary-negotiation-coach.md) | 拍照 offer，AI 3 秒分析是否被压价，生成谈判话术 | 💡 |
 
-3. **AI安全沙箱** - ⭐⭐⭐⭐⭐
-   - AI安全刚需
-   - 技术壁垒高
-   - 政府和企业客户
-
-### 🚀 技术最具挑战性
-1. **AI合规自适应系统** - 🔴 高难度
-   - 复杂的合规要求
-   - 多地区法规适配
-   - AI模型监管
-
-2. **AI企业知识管理器** - 🔴 高难度
-   - 大规模知识图谱
-   - 企业级集成
-   - 高并发处理
-
-### 💰 最易变现
-1. **AI语言家教** - 🟢 低难度
-   - 教育市场成熟
-   - 订阅制模式
-   - 用户付费意愿强
-
-2. **AI智能家庭助手** - 🟡 中等难度
-   - 消费者市场广阔
-   - 硬件+软件模式
-   - 生态系统价值
+**[⬆ 返回顶部](#awesome-ai-ideas)**
 
 ---
 
-## 📈 Star历史
+## 🎮 创意娱乐
 
-[![Star History Chart](https://starchart.cc/ava-agent/awesome-ai-ideas.svg)](https://starchart.cc/ava-agent/awesome-ai-ideas)
+_释放创造力，让 AI 成为你的故事共创者。_
 
----
+| 创意 | 一句话卖点 | 状态 |
+|------|-----------|------|
+| [AI 创意搭档](./pr/ai-creative-partner-296.md) | 从创作焦虑卡壳到灵感持续涌现的 AI 协作引擎 | ⭐ |
+| [AI 故事世界共创师](./pr/2026-03-25-ai-story-world-creator.md) | 10 秒进入角色扮演世界，从被动刷视频到主动创造故事 | ⭐ |
+| [AI 爆款标题猎手](./prs/187-viral-title-hunter.md) | 10 秒生成 5 个带情绪钩子的标题，专治标题焦虑 | ⭐ |
+| [AI 桌游规则翻译官](./prs/192-ai-boardgame-rule-translator.md) | 拍照 10 秒获得 3 句核心玩法，从听 3 遍还懵到看一眼就会 | ⭐ |
+| [AI 照片故事生成器](./ideas/ai-photo-story-generator.md) | 一键将照片变成精美的故事回忆 | 🟢 |
 
-## 👥 贡献者
-
-感谢所有为这个项目做出贡献的人：
-
-### 🌟 核心团队
-- [@kevinten10](https://github.com/kevinten10) - 项目创始人和主要评审员
-- [@ava-agent](https://github.com/ava-agent) - AI创意生成和评审系统
-
-### 🎯 专业评审团队
-- 技术专家：AI架构师、全栈工程师、数据科学家
-- 产品专家：产品经理、UX设计师、商业分析师
-- 行业专家：医疗健康、金融科技、企业服务专家
-
-### 🤝 社区贡献者
-感谢所有提交创意、参与讨论、提供反馈的社区成员！
+**[⬆ 返回顶部](#awesome-ai-ideas)**
 
 ---
 
-## 📄 许可证
+## 🛍️ 消费决策
 
-本项目采用 [MIT License](./LICENSE) 许可证。
+_更聪明地买、更精准地选 — AI 驱动的消费决策。_
 
-## 🙏 致谢
+| 创意 | 一句话卖点 | 状态 |
+|------|-----------|------|
+| [AI 购物决策助手](./pr/2026-03-25-ai-shopping-assistant.md) | 3 秒识别刷评水军，发现真实低价，每笔订单省 30% | ⭐ |
+| [AI 二手物品定价师](./pr/ai-secondhand-pricing-agent.md) | 拍照 3 秒精准估价 + 生成吸睛描述，10 分钟上架 | ⭐ |
+| [AI 咖啡风味探索师](./pr/2026-03-26-ai-coffee-flavor-explorer.md) | 拍豆袋标签，引导品鉴训练，从只喝拿铁到盲猜产区 | ⭐ |
+| [AI 护肤顾问](./pr/skincare-advisor.md) | 拍脸 5 秒懂肌肤，告别盲目买买买，一年省 2000 | ⭐ |
+| [AI 穿搭决策顾问](./ideas/ai-outfit-decision-advisor.md) | 拍照衣柜说需求，3 秒获得 3 套专业搭配建议 | 🟢 |
 
-- [Awesome](https://awesome.re) - 受awesome项目启发
-- [GitHub](https://github.com) - 提供优秀的代码托管平台
-- 所有AI研究者和从业者 - 不断推动AI技术进步
+**[⬆ 返回顶部](#awesome-ai-ideas)**
+
+---
+
+## 🏠 生活服务
+
+_租房、搬家、旅行、健身、宠物 — AI 让日常生活更轻松。_
+
+| 创意 | 一句话卖点 | 状态 |
+|------|-----------|------|
+| [AI 宠物健康守护者](./pr/ai-pet-health-guardian-360.md) | AI 健康管家，智能监测实现全生命周期守护 | ⭐ |
+| [AI 乖狗训练师](./pr/ai-dog-trainer.md) | AI 分析训练视频，30 天教会坐下握手，省下几千块训犬课 | ⭐ |
+| [AI 健身动作纠错镜](./prs/199-fitness-form-coach.md) | 实时识别关节角度，从深蹲腰酸到每个动作都标准有效 | ⭐ |
+| [AI 停车位猎人](./prs/196-ai-parking-hunter.md) | 3 秒看到空位导航，从绕 3 圈找不到到直奔空位 | ⭐ |
+| [AI 租房看房侦探](./ideas/rental-detective/README.md) | 拍照合同，AI 3 秒标注风险条款，10 分钟看出猫腻 | 🟢 |
+| [AI 境外游翻译官](./ideas/ai-travel-translator.md) | 不只是翻译，更是当地文化解读 | 🟢 |
+| [AI 宠物健康日志分析师](./ideas/ai-pet-health-analyst.md) | 通过日常记录提前发现宠物健康问题 | 🟢 |
+| [AI 礼物推荐助手](./ideas/gift-recommendation-assistant.md) | 基于关系画像和实时热点，告别送礼焦虑 | 🟢 |
+| [AI 个人能源管家](./ideas/energy-assistant.md) | 拍照账单 3 秒识别异常用电，及时止损 | 🟢 |
+| [AI 维权证据助手](./ideas/ai-rights-evidence-assistant.md) | AI 3 秒生成专业投诉文书 + 维权路径指引 | 🟢 |
+| [AI 跑步陪练](./ideas/ai-running-coach.md) | 实时语音鼓励和配速指导，3 周完成首个 5 公里 | 🟢 |
+| [AI 搬家打包指挥官](./ideas/moving-assistant.md) | 拍照识别物品，从手忙脚乱 3 天到半天井然有序 | 🟢 |
+| [AI 碳足迹追踪助手](./ai-carbon-footprint-tracker.md) | 从模糊环保概念到每天可量化的绿色生活 | 🟢 |
+| [AI 园艺设计师](./ai-gardening-designer.md) | 从植物杀手到打造阳台小森林的 AI 养护系统 | 🟢 |
+| [AI 家庭健康哨兵](./ai-family-health-guardian.md) | 远程实时关注独居老人健康状况 | 🟢 |
+| [AI 宠物行为翻译官](./proposals/pet-behavior-translator.md) | 拍摄视频，AI 即时翻译宠物行为含义 | 💡 |
+| [AI智能健康生活伙伴](./docs/ai-chronic-disease-health-companion/README.md) | 拍照3秒识别健康数据，AI智能管理慢性病，从被动治疗到主动掌控 | 🟢 |
+
+**[⬆ 返回顶部](#awesome-ai-ideas)**
+
+---
+
+## 🗣️ 社交沟通
+
+_破冰、跨代沟通、数字素养 — AI 助力人际连接。_
+
+| 创意 | 一句话卖点 | 状态 |
+|------|-----------|------|
+| [AI 破冰对话教练](./pr/2026-03-25-ai-icebreaker-coach.md) | 社恐遇到领导时，AI 实时推送 3 个破冰话题 | ⭐ |
+| [AI 数字技能陪练](./pr/digital-skills-coach.md) | 60 岁也能独立操作手机，不再求助儿女 | ⭐ |
+| [AI 代际沟通翻译官](./ideas/ai-intergenerational-translator.md) | 让父母和成年子女真正听懂彼此 | 🟢 |
+| [AI 聚会召集官](./ideas/ai-meeting-organizer.md) | AI 5 分钟锁定聚会时间地点，告别讨论 3 天定不下来 | 🟢 |
+| [AI 数字防骗小卫士](./ai-safety-guardian.md) | 专为老年人设计的智能防骗助手，安全畅享数字生活 | 🟢 |
+| [AI 方言传承助手](./proposals/ai-dialect-heritage-assistant.md) | 录下方言祝福，让乡音在家族中代代相传 | 💡 |
+
+**[⬆ 返回顶部](#awesome-ai-ideas)**
+
+---
+
+## 📊 创意统计
+
+| 阶段 | 说明 | 数量 |
+|------|------|:----:|
+| ⭐ 详细设计 | 经过 PR 评审的完整设计方案 | 23 |
+| 🟢 可开发 | 已评审，可直接开始开发 | 35 |
+| 💡 提案中 | 早期想法，欢迎讨论完善 | 4 |
+| 📋 RFC | 技术规格文档 | 1 |
+| **总计** | | **63** |
+
+---
+
+## 🎯 如何参与
+
+### 提交新创意
+
+| 你的想法成熟度 | 提交到 | 说明 |
+|---------------|--------|------|
+| 💡 有初步想法 | [`proposals/`](./proposals) | 用几段话描述核心想法即可 |
+| 🟢 想法较成熟 | [`ideas/`](./ideas) | 按[模板](./TEMPLATE.md)填写完整方案 |
+| ⭐ 有完整设计 | 创建 PR 到 [`pr/`](./pr) | 包含完整技术方案和商业分析 |
+
+### 其他参与方式
+
+-- **讨论创意** — 对现有创意有想法？[打开 Issue](../../issues/new) 一起聊
+-- **认领实现** — 想把某个创意变成现实？在创意文档下留言
+-- **改进建议** — 发现可以优化的地方？直接提交 PR
+
+### 创意文档结构
+
+每个创意建议包含以下章节，详见 [`TEMPLATE.md`](./TEMPLATE.md)：
+
+```
+概述 → 功能设计 → 技术方案 → 实现步骤 → 资源需求 → 变现模式 → 竞品分析 → 风险与缓解
+```
+
+<details>
+<summary><kbd>&nbsp;仓库结构&nbsp;</kbd></summary>
+
+&nbsp;
+
+```
+awesome-ai-ideas/
+├── ideas/              # 🟢 已评审创意（29 个，可直接开发）
+├── pr/                 # ⭐ 详细设计方案（14 个，经过 PR 评审）
+├── prs/                # ⭐ PR 提交的设计方案（13 个）
+├── proposals/          # 💡 早期提案（5 个，待讨论完善）
+├── docs/rfc/           # 📋 技术 RFC 文档
+├── .github/            # Issue 和 PR 模板
+├── TEMPLATE.md         # 创意文档模板
+├── README.md           # 中文文档（本文件）
+└── README_EN.md        # English documentation
+```
+
+&nbsp;
+
+</details>
+
+---
+
+## Star History
+
+<a href="https://star-history.com/#ava-agent/awesome-ai-ideas&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ava-agent/awesome-ai-ideas&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ava-agent/awesome-ai-ideas&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ava-agent/awesome-ai-ideas&type=Date" width="100%" />
+ </picture>
+</a>
+
+---
+
+## 🤝 贡献者
+
+感谢所有为这个仓库贡献创意的伙伴们！
+
+<a href="https://github.com/ava-agent/awesome-ai-ideas/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ava-agent/awesome-ai-ideas" />
+</a>
 
 ---
 
 <div align="center">
+
+## 📜 许可证
+
+[MIT License](./LICENSE) © 2026 Awesome AI Ideas Contributors
+
 <br>
-<a href="#-awesome-ai-ideas">回到顶部</a> ·
-<a href="./TEMPLATE.md">提交创意</a> ·
-<a href="../../issues">参与讨论</a>
+
+**[Issue 追踪](../../issues) &nbsp;&middot;&nbsp; [Pull Requests](../../pulls) &nbsp;&middot;&nbsp; [联系我们](mailto:kevinten10@gmail.com)**
+
 </div>
