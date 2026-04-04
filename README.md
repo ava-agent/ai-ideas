@@ -1,0 +1,1 @@
+# AI Photography Skills Coach
