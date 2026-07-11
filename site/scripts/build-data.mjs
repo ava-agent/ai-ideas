@@ -16,6 +16,17 @@ if (process.env.SKIP_DATA_BUILD === '1') {
 // Directories containing idea files
 const IDEA_DIRS = ['ideas', 'pr', 'prs', 'proposals', 'pr-proposals', 'features', 'fix'];
 
+const hasRepositorySources = IDEA_DIRS.some((dir) => fs.existsSync(path.join(ROOT, dir)));
+if (!hasRepositorySources) {
+  const hasGeneratedData = fs.existsSync(path.join(OUT, 'ideas.json'))
+    && fs.existsSync(path.join(OUT, 'content-map.json'));
+  if (!hasGeneratedData) {
+    throw new Error(`Idea source directories are unavailable under ${ROOT}, and no generated data was committed`);
+  }
+  console.log(`Idea sources are unavailable under ${ROOT}; using committed generated data`);
+  process.exit(0);
+}
+
 // Meta files to skip
 const SKIP_FILES = new Set([
   'README.md', 'README_EN.md', 'TEMPLATE.md', 'INTERACTIVE_TEMPLATE.md',
@@ -277,7 +288,6 @@ function buildData() {
   });
 
   const output = {
-    generatedAt: new Date().toISOString(),
     totalIdeas: ideas.length,
     scoredIdeas: ideas.filter(i => i.overall != null).length,
     tier1: ideas.filter(i => i.tier === 1).map(withoutContent),
