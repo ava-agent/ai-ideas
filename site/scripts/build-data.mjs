@@ -288,7 +288,6 @@ function buildData() {
   });
 
   const output = {
-    generatedAt: new Date().toISOString(),
     totalIdeas: ideas.length,
     scoredIdeas: ideas.filter(i => i.overall != null).length,
     tier1: ideas.filter(i => i.tier === 1).map(withoutContent),
