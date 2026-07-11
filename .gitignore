@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+
+# Local browser and QA output
+.playwright-mcp/
+playwright-report/
+test-results/
+
+# Vercel metadata
+.vercel/
+site/.vercel/
+
+# Next.js local output for the site app
+site/.next/
+site/out/
+site/node_modules/
+site/next-env.d.ts
+site/*.tsbuildinfo
+
+# Root-level QA/design screenshots
+/detail-page.png
+/homepage*.png
+/ideas-page.png
+/leaderboard-page.png
+/redesign-*.png

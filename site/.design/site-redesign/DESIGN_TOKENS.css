@@ -1,0 +1,99 @@
+/* ============================================
+   Design Tokens — AI Ideas Showcase Redesign
+   ============================================ */
+
+:root {
+  /* ── Brand ── */
+  --brand-50:  #F4F2FF;
+  --brand-100: #E8E4FF;
+  --brand-200: #D8D1FF;
+  --brand-300: #B8ADFF;
+  --brand-400: #8B73FF;
+  --brand-500: #674DFF;  /* Primary */
+  --brand-600: #5035E0;
+  --brand-700: #3D20B8;
+  --brand-800: #2D14B8;
+  --brand-900: #1A0A6E;
+
+  /* ── Neutrals ── */
+  --gray-50:  #FAFAFA;
+  --gray-100: #F5F5F5;
+  --gray-200: #E5E5E5;
+  --gray-300: #D4D4D4;
+  --gray-400: #A3A3A3;
+  --gray-500: #737373;
+  --gray-600: #525252;
+  --gray-700: #404040;
+  --gray-800: #262626;
+  --gray-900: #171717;
+
+  /* ── Semantic ── */
+  --color-bg:        #FFFFFF;
+  --color-bg-subtle: #FAFAFA;
+  --color-bg-muted:  #F5F5F5;
+  --color-border:    #E5E5E5;
+  --color-border-subtle: #F0F0F0;
+  --color-text:      #171717;
+  --color-text-secondary: #525252;
+  --color-text-muted: #A3A3A3;
+
+  /* ── Success / Warning / Error ── */
+  --emerald-500: #10B981;
+  --emerald-600: #059669;
+  --amber-500:   #F59E0B;
+  --amber-600:   #D97706;
+  --red-400:     #F87171;
+  --red-500:     #EF4444;
+
+  /* ── Typography ── */
+  --text-xs:   0.75rem;    /* 12px */
+  --text-sm:   0.8125rem;  /* 13px */
+  --text-base: 0.875rem;   /* 14px */
+  --text-lg:   1rem;       /* 16px */
+  --text-xl:   1.25rem;    /* 20px */
+  --text-2xl:  1.5rem;     /* 24px */
+  --text-3xl:  2rem;       /* 32px */
+  --text-4xl:  2.5rem;     /* 40px */
+  --text-5xl:  3.5rem;     /* 56px */
+
+  --leading-tight:  1.2;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.7;
+
+  --tracking-tight:  -0.02em;
+  --tracking-normal: -0.01em;
+
+  /* ── Spacing Scale ── */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  /* ── Radii ── */
+  --radius-sm:   6px;
+  --radius-md:   10px;
+  --radius-lg:   14px;
+  --radius-xl:   20px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-sm:  0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md:  0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-lg:  0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-xl:  0 8px 32px rgba(0, 0, 0, 0.10);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.03);
+  --shadow-card-hover: 0 4px 12px rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(0, 0, 0, 0.04);
+
+  /* ── Transitions ── */
+  --transition-fast: 120ms ease;
+  --transition-base: 200ms ease;
+  --transition-slow: 300ms ease;
+}
