@@ -8,7 +8,7 @@
 - Main content: Markdown idea documents in `ideas/`, `pr/`, `prs/`, `proposals/`, `docs/`, and `features/`
 - Site app: `site/`
 - Vercel project: `kevintens-projects/ai-ideas-showcase`; local metadata remains ignored and should not be committed.
-- Public domain: no custom production domain has been recorded in this workspace inventory yet.
+- Production URL: `https://ai-ideas-showcase.vercel.app`
 
 ## Site App
 
@@ -21,7 +21,7 @@ npm run dev
 npm run build
 ```
 
-The build command runs `node scripts/build-data.mjs` before `next build`. If `site/src/data/ideas.json` and `site/src/data/content-map.json` already exist, the data build step is skipped.
+The build command runs `node scripts/build-data.mjs` before `next build`. A full repository checkout regenerates and validates the committed catalog data. A site-only Vercel build uses the committed generated data because the source Markdown directories are outside the configured project root.
 
 ## Environment
 
@@ -45,8 +45,8 @@ Then refresh the workspace reports from the parent `projects` directory:
 python3 tools/project_workspace_inventory.py
 ```
 
-## Open Items
+The production release was also checked in a real browser at desktop and 390 px mobile widths. The home page, catalog, idea detail, and leaderboard returned HTTP 200 with no console errors or horizontal overflow.
 
-- Confirm the actual Vercel project and production URL for `site/`.
-- Decide whether the root screenshot files are release assets, design review evidence, or disposable QA output.
-- Confirm the final production alias and run browser smoke checks after deployment.
+## Release Assets
+
+Root screenshot files remain repository-owned historical assets. Review their purpose separately before deleting or reorganizing them.

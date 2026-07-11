@@ -9,8 +9,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Ideas - 200+ AI 产品创意库",
-  description: "212 个经过深度评估的 AI 产品创意，涵盖教育、健康、金融、创作等多个领域",
+  title: "AI Ideas - 精选 AI 产品创意库",
+  description: "精选 AI 产品创意，涵盖教育、健康、金融、创作等多个领域",
 };
 
 export default function RootLayout({
