@@ -14,7 +14,7 @@ if (process.env.SKIP_DATA_BUILD === '1') {
 }
 
 // Directories containing idea files
-const IDEA_DIRS = ['ideas', 'pr', 'prs', 'proposals', 'pr-proposals', 'docs', 'features', 'fix'];
+const IDEA_DIRS = ['ideas', 'pr', 'prs', 'proposals', 'pr-proposals', 'features', 'fix'];
 
 // Meta files to skip
 const SKIP_FILES = new Set([
