@@ -1,0 +1,348 @@
+{
+  "evaluations": [
+    {
+      "file": "pr/knowledge-productizer.md",
+      "idea_name": "AI 知识产品化助手",
+      "scores": {
+        "市场规模": 7,
+        "痛点强度": 7,
+        "爆款潜力": 6,
+        "技术可行性": 8,
+        "差异化": 6,
+        "变现能力": 7,
+        "执行难度": 5
+      },
+      "overall": 57.7,
+      "verdict": "知识产品化赛道竞争激烈，但轻量可行"
+    },
+    {
+      "file": "pr/pr-605-reasoning-multimodal-assistant.md",
+      "idea_name": "ReaSon - Reasoning-enhanced Sonic multimodal Assistant",
+      "scores": {
+        "市场规模": 9,
+        "痛点强度": 7,
+        "爆款潜力": 7,
+        "技术可行性": 4,
+        "差异化": 5,
+        "变现能力": 7,
+        "执行难度": 9
+      },
+      "overall": 47.4,
+      "verdict": "技术野心过大，难以与OpenAI/谷歌等巨头竞争"
+    },
+    {
+      "file": "pr/pr-606-digital-nutritionist.md",
+      "idea_name": "AI智能数字营养师",
+      "scores": {
+        "市场规模": 8,
+        "痛点强度": 7,
+        "爆款潜力": 7,
+        "技术可行性": 6,
+        "差异化": 7,
+        "变现能力": 7,
+        "执行难度": 7
+      },
+      "overall": 56.0,
+      "verdict": "家长教育焦虑强，但多模态技术实现复杂"
+    },
+    {
+      "file": "pr/pr-666-ai-lightweight-gateway.md",
+      "idea_name": "AI智能服务网关架构",
+      "scores": {
+        "市场规模": 7,
+        "痛点强度": 8,
+        "爆款潜力": 6,
+        "技术可行性": 8,
+        "差异化": 7,
+        "变现能力": 8,
+        "执行难度": 5
+      },
+      "overall": 62.3,
+      "verdict": "B端基础设施刚需，变现路径清晰"
+    },
+    {
+      "file": "pr/pr-667-ai-global-collaboration-partner.md",
+      "idea_name": "AI智能跨时空协作伙伴",
+      "scores": {
+        "市场规模": 6,
+        "痛点强度": 6,
+        "爆款潜力": 5,
+        "技术可行性": 7,
+        "差异化": 6,
+        "变现能力": 6,
+        "执行难度": 5
+      },
+      "overall": 49.2,
+      "verdict": "远程协作小众市场，差异化有限"
+    },
+    {
+      "file": "pr/pr-669-ai-pet-emotional-guardian.md",
+      "idea_name": "AI智能宠物情感守护伴侣",
+      "scores": {
+        "市场规模": 8,
+        "痛点强度": 8,
+        "爆款潜力": 8,
+        "技术可行性": 5,
+        "差异化": 6,
+        "变现能力": 8,
+        "执行难度": 8
+      },
+      "overall": 56.3,
+      "verdict": "宠物情感市场大，但需硬件生态和医疗合规支撑"
+    },
+    {
+      "file": "pr/pr-670-ai-senior-home-control.md",
+      "idea_name": "AI语音家居控制中枢",
+      "scores": {
+        "市场规模": 9,
+        "痛点强度": 8,
+        "爆款潜力": 6,
+        "技术可行性": 6,
+        "差异化": 7,
+        "变现能力": 8,
+        "执行难度": 7
+      },
+      "overall": 58.3,
+      "verdict": "银发市场刚需但获客慢，需政策红利"
+    },
+    {
+      "file": "pr/pr-673-ai-parenting-wisdom-companion.md",
+      "idea_name": "AI智能育儿陪伴助手",
+      "scores": {
+        "市场规模": 9,
+        "痛点强度": 9,
+        "爆款潜力": 7,
+        "技术可行性": 6,
+        "差异化": 6,
+        "变现能力": 8,
+        "执行难度": 7
+      },
+      "overall": 60.6,
+      "verdict": "育儿焦虑极高，医疗合规是最大风险"
+    },
+    {
+      "file": "pr/pr-rural-ai-assistant-548.md",
+      "idea_name": "乡村智慧连接助手",
+      "scores": {
+        "市场规模": 8,
+        "痛点强度": 9,
+        "爆款潜力": 6,
+        "技术可行性": 6,
+        "差异化": 8,
+        "变现能力": 7,
+        "执行难度": 7
+      },
+      "overall": 58.3,
+      "verdict": "社会价值巨大，商业化依赖政府B2G订单"
+    },
+    {
+      "file": "pr/skincare-advisor.md",
+      "idea_name": "AI 护肤顾问",
+      "scores": {
+        "市场规模": 7,
+        "痛点强度": 7,
+        "爆款潜力": 8,
+        "技术可行性": 8,
+        "差异化": 7,
+        "变现能力": 7,
+        "执行难度": 4
+      },
+      "overall": 65.9,
+      "verdict": "小红书冷启动友好，技术轻量易验证"
+    },
+    {
+      "file": "proposals/ai-dialect-heritage-assistant.md",
+      "idea_name": "AI 方言传承助手",
+      "scores": {
+        "市场规模": 5,
+        "痛点强度": 6,
+        "爆款潜力": 7,
+        "技术可行性": 6,
+        "差异化": 8,
+        "变现能力": 5,
+        "执行难度": 5
+      },
+      "overall": 52.3,
+      "verdict": "情感价值高但市场规模和变现空间有限"
+    },
+    {
+      "file": "proposals/ai-knowledge-productizer.md",
+      "idea_name": "AI 知识产品化助手",
+      "scores": {
+        "市场规模": 7,
+        "痛点强度": 7,
+        "爆款潜力": 6,
+        "技术可行性": 8,
+        "差异化": 6,
+        "变现能力": 7,
+        "执行难度": 5
+      },
+      "overall": 57.7,
+      "verdict": "与pr版同质，赛道竞争激烈但有B端空间"
+    },
+    {
+      "file": "proposals/ai-salary-negotiation-coach.md",
+      "idea_name": "AI 薪资谈判教练",
+      "scores": {
+        "市场规模": 7,
+        "痛点强度": 8,
+        "爆款潜力": 7,
+        "技术可行性": 8,
+        "差异化": 7,
+        "变现能力": 8,
+        "执行难度": 4
+      },
+      "overall": 66.6,
+      "verdict": "高价值单点工具，用户变现意愿极强"
+    },
+    {
+      "file": "proposals/pet-behavior-translator.md",
+      "idea_name": "AI 宠物行为翻译官",
+      "scores": {
+        "市场规模": 8,
+        "痛点强度": 7,
+        "爆款潜力": 9,
+        "技术可行性": 6,
+        "差异化": 7,
+        "变现能力": 7,
+        "执行难度": 5
+      },
+      "overall": 64.6,
+      "verdict": "宠物视频分析极易传播，技术门槛低"
+    },
+    {
+      "file": "proposals/task-decomposer.md",
+      "idea_name": "AI 任务拆解启动器",
+      "scores": {
+        "市场规模": 7,
+        "痛点强度": 8,
+        "爆款潜力": 8,
+        "技术可行性": 9,
+        "差异化": 7,
+        "变现能力": 6,
+        "执行难度": 3
+      },
+      "overall": 69.4,
+      "verdict": "拖延症痛点共鸣强，极简MVP一周可上线"
+    },
+    {
+      "file": "prs/0140-ai-resume-doctor.md",
+      "idea_name": "AI 简历诊断师",
+      "scores": {
+        "市场规模": 8,
+        "痛点强度": 9,
+        "爆款潜力": 8,
+        "技术可行性": 9,
+        "差异化": 8,
+        "变现能力": 8,
+        "执行难度": 4
+      },
+      "overall": 75.1,
+      "verdict": "求职刚需+社媒裂变神器，单位经济模型极佳"
+    },
+    {
+      "file": "prs/0146-ai-code-security-auditor-mcp.md",
+      "idea_name": "AI Code Security Auditor MCP Server",
+      "scores": {
+        "市场规模": 6,
+        "痛点强度": 8,
+        "爆款潜力": 7,
+        "技术可行性": 8,
+        "差异化": 9,
+        "变现能力": 7,
+        "执行难度": 5
+      },
+      "overall": 64.6,
+      "verdict": "MCP风口产品，开发者社区认可度高"
+    },
+    {
+      "file": "prs/0153-ai-browser-agent-scheduler.md",
+      "idea_name": "AI 浏览器代理调度器",
+      "scores": {
+        "市场规模": 6,
+        "痛点强度": 7,
+        "爆款潜力": 7,
+        "技术可行性": 7,
+        "差异化": 8,
+        "变现能力": 7,
+        "执行难度": 6
+      },
+      "overall": 58.0,
+      "verdict": "开源+B端双轮驱动，但反爬维护成本高"
+    },
+    {
+      "file": "prs/0157-speech-confidence-coach.md",
+      "idea_name": "AI 演讲自信教练",
+      "scores": {
+        "市场规模": 6,
+        "痛点强度": 7,
+        "爆款潜力": 6,
+        "技术可行性": 8,
+        "差异化": 6,
+        "变现能力": 6,
+        "执行难度": 5
+      },
+      "overall": 54.6,
+      "verdict": "演讲焦虑真实但使用场景低频"
+    },
+    {
+      "file": "prs/0178-ai-outfit-advisor.md",
+      "idea_name": "AI 穿搭决策顾问",
+      "scores": {
+        "市场规模": 7,
+        "痛点强度": 6,
+        "爆款潜力": 7,
+        "技术可行性": 6,
+        "差异化": 7,
+        "变现能力": 7,
+        "执行难度": 6
+      },
+      "overall": 54.9,
+      "verdict": "衣柜数字化阻力大，留存是生死线"
+    },
+    {
+      "file": "prs/0189-english-speaking-coach.md",
+      "idea_name": "AI 英语口语陪练",
+      "scores": {
+        "市场规模": 8,
+        "痛点强度": 8,
+        "爆款潜力": 7,
+        "技术可行性": 7,
+        "差异化": 7,
+        "变现能力": 7,
+        "执行难度": 6
+      },
+      "overall": 61.1,
+      "verdict": "英语口语市场大但实时语音技术门槛高"
+    },
+    {
+      "file": "prs/0217-ai-file-cabinet-butler.md",
+      "idea_name": "AI 文件柜管家",
+      "scores": {
+        "市场规模": 6,
+        "痛点强度": 6,
+        "爆款潜力": 5,
+        "技术可行性": 8,
+        "差异化": 6,
+        "变现能力": 6,
+        "执行难度": 5
+      },
+      "overall": 50.8,
+      "verdict": "文档管理需求稳但缺乏爆发性"
+    }
+  ],
+  "top3": [
+    {
+      "file": "prs/0140-ai-resume-doctor.md",
+      "justification": "整体评分最高（75.1）。中国每年有8000万+求职者，简历石沉大海是极强痛点；改前改后对比图天然适合小红书/抖音裂变；技术非常成熟（OCR+LLM评分），MVP仅需2周；单次诊断成本仅¥0.10，毛利率高达85%，变现模型极其健康。"
+    },
+    {
+      "file": "proposals/task-decomposer.md",
+      "justification": "评分第二（69.4）。拖延症是覆盖千万人群的普世痛点，\"只显示第一步\"的UX洞察精准；纯LLM产品技术可行性极高，MVP可在一周内上线；社交分享（开工打卡）具备强裂变潜力；执行难度最低（3分），是快速验证、以快取胜的理想选择。"
+    },
+    {
+      "file": "proposals/ai-salary-negotiation-coach.md",
+      "justification": "评分第三（66.6）。薪资谈判是高 stakes 单点场景，用户拿到offer后的付费意愿极强；OCR识别+LLM生成话术的技术路径清晰，3周可出MVP；\"成功多拿30%薪资\"的故事极具传播力；相比订阅制，单次付费（¥19.9）决策门槛低，变现效率高。"
+    }
+  ]
+}
